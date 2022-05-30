@@ -1,4 +1,8 @@
 .app {
-    display: grid;
     background-color: black;
+    height: 656px;
+    display: grid;
+    grid-template-areas:
+"description header";
+    grid-template-columns: 10fr 2fr;
 }

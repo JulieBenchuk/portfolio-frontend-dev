@@ -5,8 +5,11 @@ import style from "./description.module.css"
 export const Description = () => {
     return (
         <div className={style.description}>
-            <div>Photo</div>
-            <div>Text</div>
+            <span className={style.photo}>
+                Photo
+                <img src="./../img/2022-03-11%2013.55.34.jpg"/>
+            </span>
+            <span className={style.text}>Text</span>
         </div>
     );
 }

@@ -1,4 +1,14 @@
 .description {
     color: white;
-
+    grid-area: description;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo {
+    border: 1px solid yellow;
+}
+.text {
+    border: 1px solid orange;
 }
