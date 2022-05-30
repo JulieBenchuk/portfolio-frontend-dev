@@ -24,19 +24,16 @@
 
 .button {
     border: 1px solid #ffb400;
-    overflow: hidden;
     display: inline-block;
     line-height: 1.4;
     border-radius: 35px;
-    white-space: nowrap;
     text-overflow: ellipsis;
     text-align: center;
     cursor: pointer;
     vertical-align: middle;
-    user-select: none;
-    transition: 250ms all ease-in-out;
+    transition: background-color 300ms ease-out;
     text-transform: uppercase;
-    text-decoration: none !important;
+    text-decoration: none;
     position: relative;
     z-index: 1;
     padding: 16px 70px 16px 35px;
@@ -44,11 +41,15 @@
     font-weight: 600;
     color: #fff;
     background-color: transparent;
-    outline: none !important;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #ffb400;
 }
 
 a {
-    color: #007bff;
+    color: white;
     text-decoration: none;
     background-color: transparent;
 }

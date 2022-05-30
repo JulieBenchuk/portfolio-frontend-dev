@@ -29,7 +29,7 @@ A knack for benchmarking and optimization
 Familiarity with code versioning tools (such as Git, SVN, and Mercurial)
                  </p>
            <div className={style.button}>
-               <a href="">More about me <img className={style.button_icon} src="https://i.pinimg.com/originals/6a/7c/16/6a7c16de4754436ce05f59fbf3098b21.png"/></a>
+               <a href="https://www.instagram.com/julie_benchuk/">More about me <img className={style.button_icon} src="https://cdn2.iconfinder.com/data/icons/arrows-vol-1-1/32/right2-512.png"/></a>
            </div>
             </span>
     </div>);
