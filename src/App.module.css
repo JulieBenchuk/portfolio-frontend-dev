@@ -1,8 +1,20 @@
 .app {
+    z-index: -1;
     background-color: black;
     height: 656px;
     display: grid;
     grid-template-areas:
 "description header";
     grid-template-columns: 10fr 2fr;
+    font-family: 'Poppins', sans-serif;
+}
+.color_block {
+    z-index: 0;
+    background-color: #ffb400;
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
 }

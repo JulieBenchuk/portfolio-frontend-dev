@@ -9,8 +9,8 @@ export const Description = () => {
             </span>
         <span className={style.text}>
                 <h1>
-                    <span>-</span> <span>I'M JULIE.</span>
-                   <p>FRONT-END DEVELOPER</p>
+                        <p className={style.text_up}>- I'M JULIE.</p>
+                         <p>FRONT-END DEVELOPER</p>
                 </h1>
                 <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
 Thorough understanding of React.js and its core principles
@@ -29,7 +29,8 @@ A knack for benchmarking and optimization
 Familiarity with code versioning tools (such as Git, SVN, and Mercurial)
                  </p>
            <div className={style.button}>
-               <a href="https://www.instagram.com/julie_benchuk/">More about me <img className={style.button_icon} src="https://cdn2.iconfinder.com/data/icons/arrows-vol-1-1/32/right2-512.png"/></a>
+               <a href="https://www.instagram.com/julie_benchuk/">More about me <img className={style.button_icon}
+                                                                                     src="https://cdn2.iconfinder.com/data/icons/arrows-vol-1-1/32/right2-512.png"/></a>
            </div>
             </span>
     </div>);
