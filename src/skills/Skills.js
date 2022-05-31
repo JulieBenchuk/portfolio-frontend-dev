@@ -10,7 +10,7 @@ export const Skills = () => {
                 <h2>My skills</h2>
                 <div className={style.skills}>
                     <Skill title={"JS"} description={"La la la la la la la la la la la la la"}/>
-                    <Skill title={"HTML"} description={"Yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo"}/>
+                    <Skill title={"HTML"} description={"Yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo"}/>
                     <Skill title={"React"}
                            description={"Wow wow wow wow wow wow wow wow wow wow wow wow wow  wow wow wow"}/>
                 </div>

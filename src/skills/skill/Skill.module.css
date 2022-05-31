@@ -1,13 +1,17 @@
 .skillItem{
     border: 1px solid fuchsia;
-    height: 200px;
     width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lavenderblush;
+    text-align: center;
 
 }
 .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #919191;
 
 }
 .description{

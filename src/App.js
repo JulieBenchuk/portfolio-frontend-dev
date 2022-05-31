@@ -8,15 +8,15 @@ import {Skills} from "./skills/Skills";
 function App() {
     return (
         <div>
-         {/*   <div className={style.color_block}></div>*/}
+            {/*   <div className={style.color_block}></div>*/}
             <div className={style.app}>
                 <Description/>
                 <Header/>
             </div>
-         <div className={style.app}>
-             <Skills />
-             <Header/>
-         </div>
+            <div className={style.app}>
+                <Skills/>
+                <Header/>
+            </div>
 
         </div>
     );

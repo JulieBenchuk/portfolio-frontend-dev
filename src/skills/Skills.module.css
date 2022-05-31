@@ -1,5 +1,5 @@
 .skillsBlock {
-    color: white;
+    color: black;
 }
 
 .skillsContainer{
@@ -9,7 +9,9 @@
 
 }
 .skills {
+    width: 100%;
     border: 1px solid cornflowerblue;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
