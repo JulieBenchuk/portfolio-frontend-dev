@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
 
+
 }
 .avatar {
     max-height: 360px;
@@ -23,6 +24,8 @@
 }
 
 .button {
+    width: 155px;
+    height: 23px;
     border: 1px solid #ffb400;
     display: inline-block;
     line-height: 1.4;

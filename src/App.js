@@ -15,7 +15,6 @@ function App() {
             </div>
             <div className={style.app}>
                 <Skills/>
-                <Header/>
             </div>
 
         </div>
