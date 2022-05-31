@@ -7,9 +7,9 @@ import {Description} from "./description/description";
 function App() {
     return (
         <div className={style.app}>
-            <div className={style.color_block}></div>
-            <Header/>
+         {/*   <div className={style.color_block}></div>*/}
             <Description/>
+            <Header/>
         </div>
     );
 }

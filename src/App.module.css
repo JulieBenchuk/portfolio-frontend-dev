@@ -1,14 +1,10 @@
 .app {
-    z-index: -1;
     background-color: black;
-    height: 656px;
-    display: grid;
-    grid-template-areas:
-"description header";
-    grid-template-columns: 10fr 2fr;
+    height: 100%;
+    display: flex;
     font-family: 'Poppins', sans-serif;
 }
-.color_block {
+/*.color_block {
     z-index: 0;
     background-color: #ffb400;
     position: fixed;
@@ -17,4 +13,5 @@
     transform: rotate(-15deg);
     left: -83%;
     top: -50%;
-}
+}*/
+

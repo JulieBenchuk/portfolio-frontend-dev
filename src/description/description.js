@@ -1,9 +1,10 @@
 import React from "react";
 import style from "./description.module.css"
+import styleContainer from "./../container/container.module.css"
 
 
 export const Description = () => {
-    return (<div className={style.description}>
+    return (<div className={styleContainer.container}>
             <span className={style.photo}>
                 <img className={style.avatar} src="https://c.neh.tw/thumb/f/720/comvecteezy227852.jpg"/>
             </span>
