@@ -1,12 +1,12 @@
 .description{
-    width: max-content;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 
 }
 .avatar {
-    height: 360px;
+    max-height: 360px;
     max-width: 40%;
     border-radius: 10%;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
