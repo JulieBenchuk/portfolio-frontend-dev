@@ -2,15 +2,15 @@ import React from 'react';
 import style from "./Project.module.css"
 
 
-export const Project = () => {
+export const Project = (props) => {
     return (
         <div className={style.projectItem}>
             <div className={style.top}>
                 <div className={style.button}>Button</div>
             </div>
             <div className={style.description}>
-                <h4>Name of project</h4>
-                <p>Description</p>
+                <h4>{props.name}</h4>
+                <p>{props.shortDescription}</p>
             </div>
         </div>
     );
