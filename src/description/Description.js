@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./description.module.css"
+import style from "./Description.module.css"
 import styleContainer from "./../container/container.module.css"
 
 
