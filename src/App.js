@@ -6,6 +6,7 @@ import {Description} from "./description/Description";
 import {Skills} from "./skills/Skills";
 import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
+import {Footer} from "./footer/Footer";
 
 function App() {
     return (
@@ -23,6 +24,9 @@ function App() {
             </div>
             <div className={style.app}>
                 <Contacts/>
+            </div>
+            <div>
+                <Footer />
             </div>
 
         </div>
