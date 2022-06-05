@@ -3,12 +3,14 @@
     min-height: 100vh;
 }
 
-.skillsContainer{
+.skillsContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: olive;
 
 }
+
 .skills {
     min-width: 100%;
     border: 1px solid cornflowerblue;
@@ -16,4 +18,6 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 5px;
+    background-color: mediumpurple;
 }

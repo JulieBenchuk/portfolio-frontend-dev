@@ -1,0 +1,23 @@
+.projectItem{
+    background-color: #73e573;
+    width: 300px;
+    height: max-content;
+
+}
+.button {
+    width: 50px;
+    background-color: red;
+}
+.top{
+    background-color: darkcyan;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.description{
+    background-color: darkkhaki;
+
+}
