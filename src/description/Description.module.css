@@ -4,11 +4,9 @@
     align-items: center;
     background-color: #3a3737;
 
-
 }
 .avatar {
     max-height: 360px;
-    max-width: 40%;
     border-radius: 10%;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
     z-index: 1;
@@ -19,7 +17,6 @@
     color: white;
     max-width: 60%;
     background-color: #813e81;
-
 
 }
 .text_up {

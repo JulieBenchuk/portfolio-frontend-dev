@@ -8,4 +8,5 @@
     justify-content: flex-end;
     align-items: center;
     background-color: #b67c7c;
+    z-index: 2;
 }
