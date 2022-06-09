@@ -10,24 +10,15 @@ import {Footer} from "./footer/Footer";
 
 function App() {
     return (
-        <div>
+        <div className={style.app}>
             {/*<div className={style.color_block}></div>*/}
-            <div className={style.app}>
                 <Description/>
                 <Header/>
-            </div>
-            <div className={style.app}>
                 <Skills/>
-            </div>
-            <div className={style.app}>
                 <Projects/>
-            </div>
-            <div className={style.app}>
                 <Contacts/>
-            </div>
-            <div>
-                <Footer />
-            </div>
+                <Footer/>
+
         </div>
     );
 }

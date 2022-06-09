@@ -1,9 +1,11 @@
 .app {
     background-color: black;
+    color: white;
     min-height: 100vh;
     width: 100vw;
     display: flex;
     font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
 }
 /*.color_block {
     z-index: 0;
