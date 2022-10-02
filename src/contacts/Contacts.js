@@ -5,7 +5,7 @@ import styleContainer from "./../container/container.module.css"
 
 export const Contacts = () => {
     return <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-        <h2 className={style.title}>Contacts</h2>
+        <h1 className={style.title}>Get in touch</h1>
         <form className={style.contactsBlock}>
             <input className={style.input} type="text"/>
             <input className={style.input} type="text"/>

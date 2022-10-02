@@ -1,11 +1,31 @@
 .app {
     background-color: #111;
-    color: white;
     min-height: 100vh;
     width: 100vw;
     display: flex;
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    position: relative;
+}
+h1 span {
+    color: #fff;
+    display: block;
+}
+.home {
+    color: #ffb400;
 }
 /*.color_block {
     z-index: 0;
