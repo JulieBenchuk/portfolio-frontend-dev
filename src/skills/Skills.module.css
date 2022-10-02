@@ -21,3 +21,9 @@
     gap: 5px;
     background-color: mediumpurple;
 }
+
+@media screen and (max-width: 851px) {
+    .skills {
+        justify-content: center;
+    }
+}

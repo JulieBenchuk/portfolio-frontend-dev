@@ -1,16 +1,24 @@
-.description{
+.description {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: #3a3737;
 
 }
+
+@media screen and (max-width: 1118px) {
+    .description {
+        justify-content: center;
+    }
+}
+
 .avatar {
     max-height: 360px;
     border-radius: 10%;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
     z-index: 1;
 }
+
 .text {
     border: 1px solid orange;
     padding: 20px;
@@ -19,9 +27,12 @@
     background-color: #813e81;
 
 }
+
 .text_up {
     color: #ffb400;
-    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase !important;
+    font-weight: 700;
 }
 
 .button {
@@ -57,6 +68,7 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+
 .button_icon {
     background-color: #ffb400;
     position: absolute;

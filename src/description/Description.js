@@ -8,9 +8,9 @@ export const Description = () => {
             <div className={style.description}>
                 <img className={style.avatar} src="https://c.neh.tw/thumb/f/720/comvecteezy227852.jpg"/>
                 <div className={style.text}>
-                    <h1>
-                        <p className={style.text_up}>- I'M JULIE.</p>
-                        <p>FRONT-END DEVELOPER</p>
+                    <h1 className={style.text_up}>
+                       - I'm Julie.
+                        <div>Front-end developer</div>
                     </h1>
                     <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
                         Thorough understanding of React.js and its core principles
