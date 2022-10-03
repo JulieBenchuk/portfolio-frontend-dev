@@ -11,7 +11,7 @@ import {Footer} from "./footer/Footer";
 function App() {
     return (
         <div className={style.app}>
-           {/* <div className={style.color_block}></div>*/}
+           {/* <div className={`${style.color_block} ${style.home_bgrd_color}`}></div>*/}
                 <Description/>
                 <Header/>
                 <Skills/>

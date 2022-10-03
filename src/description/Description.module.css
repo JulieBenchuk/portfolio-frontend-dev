@@ -2,10 +2,6 @@ span {
     color: white;
 }
 
-h1 {
-    display: block;
-}
-
 .description {
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +13,6 @@ h1 {
     .description {
         justify-content: center;
     }
-
     h1 {
         padding-left: 0;
         font-size: 38px;
@@ -41,7 +36,7 @@ h1 {
 }
 
 .text {
-    border: 1px solid orange;
+ /*   border: 1px solid orange;*/
     padding: 20px;
     color: white;
     max-width: 60%;
@@ -55,7 +50,6 @@ h1 {
 .button {
     max-width: 155px;
     height: 21px;
-    border: 1px solid #ffb400;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,10 +71,6 @@ h1 {
 
 }
 
-.button:hover {
-    background-color: #ffb400;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -88,7 +78,6 @@ a {
 }
 
 .button_icon {
-    background-color: #ffb400;
     position: absolute;
     right: -1px;
     top: -1px;
@@ -111,6 +100,6 @@ p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./Nav.module.css"
 import homeStyle from "./../../App.module.css"
-import home from "./../../img/nav_home.svg"
-import contacts from "./../../img/nav_contacts.svg"
-import portfolio from "./../../img/nav_portfolio.svg"
-import skills from "./../../img/nav_skills.svg"
+import home from "../../assets/img/nav_home.svg"
+import contacts from "../../assets/img/nav_contacts.svg"
+import portfolio from "../../assets/img/nav_portfolio.svg"
+import skills from "../../assets/img/nav_skills.svg"
 
 export const Nav = () => {
     return (

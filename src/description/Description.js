@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Description.module.css"
 import styleHome from "./../App.module.css"
 import styleContainer from "./../container/container.module.css"
+import arrow from "../assets/img/btn_arrow_right.webp"
 
 
 export const Description = () => {
@@ -24,11 +25,11 @@ export const Description = () => {
                     Familiarity with RESTful APIs
                     Familiarity with HTML / CSS
                 </p>
-                <div className={style.button}>
+                <div className={`${style.button} ${styleHome.home_btn_border}`}>
                     <a href="https://www.instagram.com/julie_benchuk/">
                         More about me
-                        <img className={style.button_icon}
-                             src="https://cdn2.iconfinder.com/data/icons/arrows-vol-1-1/32/right2-512.png"/>
+                        <img className={`${style.button_icon} ${styleHome.home_bgrd_color}`}
+                             src={arrow}/>
                     </a>
                 </div>
             </div>
