@@ -1,9 +1,6 @@
 .contactsContainer{
     flex-direction: column;
-}
-.title{
-    color: white;
-    background-color: firebrick;
+    justify-content: start;
 }
 .contactsBlock{
     border: 1px solid blue;

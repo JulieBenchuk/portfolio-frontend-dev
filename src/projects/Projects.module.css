@@ -3,10 +3,6 @@
     min-height: 100vh;
 }
 
-.title {
-    background-color: #813e81;
-}
-
 .projectsContainer {
     align-items: center;
     flex-direction: column;

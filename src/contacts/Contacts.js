@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./Contacts.module.css"
 import styleContainer from "./../container/container.module.css"
+import homeStyle from "../App.module.css";
 
 
 export const Contacts = () => {
     return <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-        <h1 className={style.title}>Get in touch</h1>
+        <h1>Get in  <span className={homeStyle.home_color}>touch</span></h1>
         <form className={style.contactsBlock}>
             <input className={style.input} type="text"/>
             <input className={style.input} type="text"/>

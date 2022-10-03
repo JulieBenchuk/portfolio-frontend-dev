@@ -20,12 +20,11 @@ h1{
     margin: 18px 0 10px;
     position: relative;
 }
-h1 span {
-    color: #fff;
-    display: block;
-}
-.home {
+.home_color {
     color: #ffb400;
+}
+.home_bgrd_color{
+    background-color: #ffb400;
 }
 /*.color_block {
     z-index: 0;

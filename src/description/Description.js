@@ -12,7 +12,7 @@ export const Description = () => {
             </div>
             <div className={style.text}>
                 <h1 className={style.text_up}>
-                    <div className={styleHome.home}>- I'm Julie.</div>
+                    <div className={styleHome.home_color}>- I'm Julie.</div>
                     <span>Frontend developer</span>
                 </h1>
                 <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
@@ -23,13 +23,6 @@ export const Description = () => {
                     Knowledge of isomorphic React is a plus
                     Familiarity with RESTful APIs
                     Familiarity with HTML / CSS
-                    GIT experience is a plus
-                    Knowledge of modern authorization mechanisms, such as JSON Web Token
-                    Familiarity with modern front-end build pipelines and tools
-                    Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
-                    Ability to understand business requirements and translate them into technical requirements
-                    A knack for benchmarking and optimization
-                    Familiarity with code versioning tools (such as Git, SVN, and Mercurial)
                 </p>
                 <div className={style.button}>
                     <a href="https://www.instagram.com/julie_benchuk/">
