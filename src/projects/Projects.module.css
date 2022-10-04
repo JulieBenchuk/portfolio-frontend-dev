@@ -10,10 +10,11 @@
 
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: start;
     width: 100%;
     flex-wrap: wrap;
+    gap: 30px
 }
 
 @media screen and (max-width: 799px) {

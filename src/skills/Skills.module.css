@@ -1,5 +1,4 @@
 .skillsBlock {
-/*    color: purple;*/
     min-height: 100vh;
 }
 
@@ -7,7 +6,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-  /*  background-color: olive;*/
 
 }
 
@@ -19,7 +17,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 5px;
-/*    background-color: mediumpurple;*/
 }
 
 @media screen and (max-width: 1076px) {

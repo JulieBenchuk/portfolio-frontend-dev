@@ -9,17 +9,17 @@ import cards from "./../assets/img/cards_img.jpeg"
 
 
 export const Projects = () => {
-    const socialStyle ={
+    const socialStyle = {
         backgroundImage: `url(${social})`,
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
-    const todoStyle ={
+    const todoStyle = {
         backgroundImage: `url(${todo})`,
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
-    const cardsStyle ={
+    const cardsStyle = {
         backgroundImage: `url(${cards})`,
         backgroundSize: "cover",
         backgroundPosition: "center"

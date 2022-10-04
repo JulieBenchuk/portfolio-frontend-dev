@@ -13,6 +13,7 @@ span {
     .description {
         justify-content: center;
     }
+
     h1 {
         padding-left: 0;
         font-size: 38px;
@@ -23,7 +24,6 @@ span {
 }
 
 .avatar_block {
-   /* background-color: firebrick;*/
     padding: 10px;
     z-index: 2;
 }
@@ -36,7 +36,6 @@ span {
 }
 
 .text {
- /*   border: 1px solid orange;*/
     padding: 20px;
     color: white;
     max-width: 60%;
