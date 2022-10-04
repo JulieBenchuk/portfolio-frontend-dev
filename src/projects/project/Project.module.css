@@ -1,23 +1,46 @@
 .projectItem{
-    background-color: #73e573;
-    width: 360px;
+    max-width: 360px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
+    margin: 30px auto;
+    display: block;
+    color: #fff !important;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    font-size: inherit;
+    text-indent: inherit;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.07);
 
+}
+.title{
+    display: block;
+    font-size: 18px;
+    margin: 7px 0 10px;
+    text-transform: uppercase!important;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+.image{
+    min-width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.description{
+    padding: 10px 20px;
+}
+.description_text{
+    margin: 0;
+    color: #eee;
+    font-size: 13px;
+    line-height: 1.6;
 }
 .button {
     width: 50px;
     background-color: red;
-}
-.top{
-    background-color: darkcyan;
-    min-width: 100%;
-    min-height: 360px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.description{
-    background-color: darkkhaki;
-    margin: 10px;
-
 }
