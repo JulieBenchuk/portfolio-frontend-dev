@@ -5,7 +5,7 @@ import style from "./Title.module.css"
 export const Title = (props) => {
     return (
         <section className={style.section}>
-            <h1>{props.title_1st + " "}
+            <h1 className={style.title}>{props.title_1st + " "}
                 <span className={homeStyle.home_color}>
                     {props.title_2nd}
                 </span>
