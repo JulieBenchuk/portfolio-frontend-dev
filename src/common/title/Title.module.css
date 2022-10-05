@@ -5,6 +5,7 @@
     margin: 0;
 
 }
+
 .shadow {
     font-size: 110px;
     left: 0;
@@ -15,7 +16,7 @@
     top: 50%;
     text-transform: uppercase;
     font-weight: 800;
-    transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-30%);
     color: rgba(255, 255, 255, 0.07);
 }
 
