@@ -30,6 +30,16 @@
     align-items: center;
     position: relative;
 }
+.image::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
 .description{
     padding: 10px 20px;
 }
@@ -40,6 +50,29 @@
     line-height: 1.6;
 }
 .button {
-    width: 50px;
-    background-color: red;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    margin-top: 35px;
+    transition: .7s;
+    z-index: 1;
+}
+.btn_ref{
+    padding: 0 23px;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    height: 40px;
+    display: inline-block;
+    line-height: 34px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    letter-spacing: .2px;
+    background: 0 0;
+}
+.btn_ref:hover{
+    color: white;
 }
