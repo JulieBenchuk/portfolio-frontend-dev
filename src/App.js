@@ -7,13 +7,14 @@ import {Skills} from "./skills/Skills";
 import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Switcher} from "./switcher/Switcher";
 
 function App() {
     return (
         <div className={style.app}>
-           {/* <div className={`${style.color_block} ${style.home_bgrd_color}`}></div>*/}
-                <Description/>
+                <Switcher/>
                 <Header/>
+                <Description/>
                 <Skills/>
                 <Projects/>
                 <Contacts/>

@@ -47,7 +47,7 @@ span {
     font-weight: 700;
     margin: 18px 0 10px;
     position: relative;
-    text-transform: uppercase!important;
+    text-transform: uppercase !important;
 }
 
 .button {
@@ -71,7 +71,6 @@ span {
     font-weight: 600;
     color: #fff;
     background-color: transparent;
-
 }
 
 a {
@@ -105,4 +104,15 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0;
     margin-inline-end: 0;
+}
+
+.color_block {
+    z-index: 0;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+
 }

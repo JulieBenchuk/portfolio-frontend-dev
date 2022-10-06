@@ -59,10 +59,6 @@
 }
 .btn_ref{
     padding: 0 23px;
-    padding-top: 0px;
-    padding-right: 23px;
-    padding-bottom: 0px;
-    padding-left: 23px;
     height: 40px;
     display: inline-block;
     line-height: 34px;
@@ -72,7 +68,11 @@
     z-index: 2;
     letter-spacing: .2px;
     background: 0 0;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+
+
 }
 .btn_ref:hover{
     color: white;
+    transform: translateY(-3px);
 }

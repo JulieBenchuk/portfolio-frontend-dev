@@ -7,9 +7,10 @@ import arrow from "../assets/img/btn_arrow_right.webp"
 
 export const Description = () => {
     return (<div className={styleContainer.container}>
+        <div className={`${style.color_block} ${styleHome.home_bgrd_color}`}/>
         <div className={style.description}>
             <div className={style.avatar_block}>
-                <img className={style.avatar} src="https://c.neh.tw/thumb/f/720/comvecteezy227852.jpg"/>
+                <img className={style.avatar} src="https://c.neh.tw/thumb/f/720/comvecteezy227852.jpg" alt="avatar"/>
             </div>
             <div className={style.text}>
                 <h1 className={style.text_up}>
@@ -26,10 +27,10 @@ export const Description = () => {
                     Familiarity with HTML / CSS
                 </p>
                 <div className={`${style.button} ${styleHome.home_btn_border}`}>
-                    <a href="https://www.instagram.com/julie_benchuk/">
+                    <a href="https://www.instagram.com/julie_benchuk/" className={style.btn_ref}>
                         More about me
                         <img className={`${style.button_icon} ${styleHome.home_bgrd_color}`}
-                             src={arrow}/>
+                             src={arrow} alt="more"/>
                     </a>
                 </div>
             </div>
