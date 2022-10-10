@@ -116,3 +116,10 @@ p {
     top: -50%;
 
 }
+
+@media screen and (max-width: 1054px) {
+    .color_block {
+        z-index: -1;
+    }
+}
+
