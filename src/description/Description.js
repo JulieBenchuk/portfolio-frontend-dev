@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Description.module.css"
 import styleHome from "./../App.module.css"
 import styleContainer from "./../container/container.module.css"
-import arrow from "../assets/img/btn_arrow_right.webp"
+import {SuperButton} from "../common/superButton/SuperButton";
 
 
 export const Description = () => {
@@ -26,13 +26,7 @@ export const Description = () => {
                     Familiarity with RESTful APIs
                     Familiarity with HTML / CSS
                 </p>
-                <div className={`${style.button} ${styleHome.home_btn_border}`}>
-                    <a href="https://www.instagram.com/julie_benchuk/" className={style.btn_ref}>
-                        More about me
-                        <img className={`${style.button_icon} ${styleHome.home_bgrd_color}`}
-                             src={arrow} alt="more"/>
-                    </a>
-                </div>
+                <SuperButton title={"More about me"}/>
             </div>
         </div>
     </div>);
