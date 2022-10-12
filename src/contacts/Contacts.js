@@ -16,7 +16,8 @@ export const Contacts = () => {
                     <div className={`${style.column} ${style.columnLeft}`}>
                         <h3 className={style.title}>Don't be shy!</h3>
                         <p className={style.meText}>
-                            Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                            Feel free to get in touch with me. I am always open to discussing new projects, creative
+                            ideas or opportunities to be part of your visions.
                         </p>
                         <p className={style.mail}>
                             <img src={mail} alt="mail" className={style.mailIcon}/>
@@ -24,7 +25,7 @@ export const Contacts = () => {
                                 <span className={style.mailMeTitle}>Mail me</span>
                                 juliebenchuk@gmail.com
                             </div>
-                            </p>
+                        </p>
                         <p className={style.call}>
                             <img src={call} alt="call" className={style.callIcon}/>
                             <div className={style.callMeColumn}>
@@ -52,9 +53,10 @@ export const Contacts = () => {
                                         </div>
                                     </div>
                                     <div className={style.formColumn}>
-                                        <textarea name="message" placeholder="YOUR MESSAGE" className={style.formTextarea}></textarea>
+                                        <textarea name="message" placeholder="YOUR MESSAGE"
+                                                  className={style.formTextarea}></textarea>
+                                        <SuperButton title={"Send message"}/>
                                     </div>
-                                    <SuperButton title={"Send message"}/>
                                 </div>
                             </div>
 
@@ -64,5 +66,5 @@ export const Contacts = () => {
             </div>
 
         </div>
-        </div>
+    </div>
 }

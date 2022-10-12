@@ -12,13 +12,13 @@ import {Switcher} from "./switcher/Switcher";
 function App() {
     return (
         <div className={style.app}>
-                <Switcher/>
-                <Header/>
-                <Description/>
-                <Skills/>
-                <Projects/>
-                <Contacts/>
-                <Footer/>
+            <Switcher/>
+            <Header/>
+            <Description/>
+            <Skills/>
+            <Projects/>
+            <Contacts/>
+            <Footer/>
 
         </div>
     );

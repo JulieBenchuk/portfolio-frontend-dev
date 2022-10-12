@@ -36,7 +36,6 @@ span {
 }
 
 .text {
-    padding: 20px;
     color: white;
     max-width: 60%;
 }
@@ -79,3 +78,9 @@ p {
     }
 }
 
+@media screen and (max-width: 470px) {
+    .color_block {
+        height: 0%;
+        width: 0%;
+    }
+}
