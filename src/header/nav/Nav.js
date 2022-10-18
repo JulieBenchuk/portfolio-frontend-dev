@@ -9,24 +9,24 @@ import skills from "../../assets/img/nav_skills.svg"
 export const Nav = () => {
     return (<div className={style.nav}>
         <a href="/description">
-            <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
+            <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
                 <img src={home} className={style.nav_icon} alt="home"/>
-            </div>
+            </h2>
         </a>
         <a href="/skills">
-            <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
+            <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
                 <img src={skills} className={style.nav_icon} alt="skills"/>
-            </div>
+            </h2>
         </a>
         <a href="/projects">
-            <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
+            <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
                 <img src={portfolio} className={style.nav_icon} alt="portfolio"/>
-            </div>
+            </h2>
         </a>
         <a href="/contacts">
-            <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
+            <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
                 <img src={contacts} className={style.nav_icon} alt="contacts"/>
-            </div>
+            </h2>
         </a>
     </div>);
 }
