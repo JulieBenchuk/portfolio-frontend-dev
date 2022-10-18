@@ -8,5 +8,6 @@
     flex-wrap: wrap;
     position: relative;
     padding-bottom: 20px;
+    overflow: hidden;
 
 }

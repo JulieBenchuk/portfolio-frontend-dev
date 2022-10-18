@@ -25,7 +25,7 @@ span {
 
 .avatar_block {
     padding: 10px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .avatar {
@@ -70,17 +70,11 @@ p {
     left: -83%;
     top: -50%;
 
+
 }
 
 @media screen and (max-width: 1054px) {
     .color_block {
         z-index: -1;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    .color_block {
-        height: 0%;
-        width: 0%;
     }
 }

@@ -7,29 +7,27 @@ import portfolio from "../../assets/img/nav_portfolio.svg"
 import skills from "../../assets/img/nav_skills.svg"
 
 export const Nav = () => {
-    return (
-        <div className={style.nav}>
+    return (<div className={style.nav}>
+        <a href="/description">
             <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <a href="">
-                    <img src={home}  className={style.nav_icon} alt="home"/>
-                </a>
+                <img src={home} className={style.nav_icon} alt="home"/>
             </div>
+        </a>
+        <a href="/skills">
             <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <a href="">
-                    <img src={skills}  className={style.nav_icon} alt="skills"/>
-                </a>
+                <img src={skills} className={style.nav_icon} alt="skills"/>
             </div>
+        </a>
+        <a href="/projects">
             <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <a href="">
-                    <img src={portfolio}  className={style.nav_icon} alt="portfolio"/>
-                </a>
+                <img src={portfolio} className={style.nav_icon} alt="portfolio"/>
             </div>
+        </a>
+        <a href="/contacts">
             <div className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <a href="">
-                    <img src={contacts}  className={style.nav_icon} alt="contacts"/>
-                </a>
+                <img src={contacts} className={style.nav_icon} alt="contacts"/>
             </div>
-        </div>
-    );
+        </a>
+    </div>);
 }
 
