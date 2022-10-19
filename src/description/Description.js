@@ -26,7 +26,7 @@ export const Description = () => {
                     Familiarity with RESTful APIs
                     Familiarity with HTML / CSS
                 </p>
-                <SuperButton title={"More about me"}/>
+                <SuperButton title={"More about me"} url={"/skills"}/>
             </div>
         </div>
     </div>);

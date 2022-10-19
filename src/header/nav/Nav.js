@@ -10,22 +10,22 @@ export const Nav = () => {
     return (<div className={style.nav}>
         <a href="/description">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <img src={home} className={style.nav_icon} alt="home"/>
+                <span> HOME </span> <img src={home} className={style.nav_icon} alt="home"/>
             </h2>
         </a>
         <a href="/skills">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <img src={skills} className={style.nav_icon} alt="skills"/>
+                <span> ABOUT </span> <img src={skills} className={style.nav_icon} alt="skills"/>
             </h2>
         </a>
         <a href="/projects">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <img src={portfolio} className={style.nav_icon} alt="portfolio"/>
+                <span> WORKS </span> <img src={portfolio} className={style.nav_icon} alt="portfolio"/>
             </h2>
         </a>
         <a href="/contacts">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <img src={contacts} className={style.nav_icon} alt="contacts"/>
+                <span> CONTACT </span> <img src={contacts} className={style.nav_icon} alt="contacts"/>
             </h2>
         </a>
     </div>);
