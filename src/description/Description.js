@@ -3,6 +3,7 @@ import style from "./Description.module.css"
 import styleHome from "./../App.module.css"
 import styleContainer from "./../container/container.module.css"
 import {SuperButton} from "../common/superButton/SuperButton";
+import avatar from "./../assets/img/avatar.jpg"
 
 
 export const Description = () => {
@@ -10,7 +11,7 @@ export const Description = () => {
         <div className={`${style.color_block} ${styleHome.home_bgrd_color}`}/>
         <div className={style.description}>
             <div className={style.avatar_block}>
-                <img className={style.avatar} src="https://c.neh.tw/thumb/f/720/comvecteezy227852.jpg" alt="avatar"/>
+                <img className={style.avatar} src={avatar} alt="avatar"/>
             </div>
             <div className={style.text}>
                 <h1 className={style.text_up}>

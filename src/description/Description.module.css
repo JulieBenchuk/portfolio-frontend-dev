@@ -9,35 +9,26 @@ span {
 
 }
 
-@media screen and (max-width: 1059px) {
-    .description {
-        justify-content: center;
-    }
-
-    h1 {
-        padding-left: 0;
-        font-size: 38px;
-        line-height: 48px;
-        margin: 29px 0 13px;
-    }
-
-}
-
 .avatar_block {
-    padding: 10px;
+    max-width: 35%;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .avatar {
-    max-height: 340px;
+
+    max-width: 100%;
     border-radius: 10%;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 
 }
 
 .text {
+    max-width: 55%;
     color: white;
-    max-width: 60%;
 }
 
 .text_up {
@@ -51,6 +42,7 @@ span {
 
 p {
     margin: 15px 0 28px;
+    padding-right: 10%;
     font-size: 16px;
     line-height: 35px;
     font-family: 'Open Sans', sans-serif;
@@ -73,8 +65,47 @@ p {
 
 }
 
-@media screen and (max-width: 1054px) {
+@media screen and (max-width: 700px) {
+    .description {
+        flex-direction: column;
+
+    }
+
     .color_block {
         z-index: -1;
     }
+
+    .avatar_block {
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+        max-width: none;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .avatar_block img {
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border: 4px solid #252525;
+    }
+
+    .text {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
 }

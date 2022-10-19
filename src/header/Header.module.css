@@ -1,11 +1,12 @@
 .header {
     right: 0;
     position: fixed;
-    min-width: 5vw;
+    width: 5vw;
     height: 100vh;
     display: flex;
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     justify-content: center;
     align-items: center;
     z-index: 2;
+    padding-right: 10px;
 }
