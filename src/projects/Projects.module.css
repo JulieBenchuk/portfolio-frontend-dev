@@ -1,5 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
+    padding-bottom: 20px;
 }
 
 .projectsContainer {

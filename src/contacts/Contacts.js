@@ -30,7 +30,7 @@ export const Contacts = () => {
                             <img src={call} alt="call" className={style.callIcon}/>
                             <div className={style.callMeColumn}>
                                 <span className={style.callMeTitle}>Call me</span>
-                                +375445590660
+                                +375 44 559 06 60
                             </div>
                         </p>
                     </div>

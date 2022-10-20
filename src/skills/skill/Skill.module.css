@@ -1,4 +1,4 @@
-.skillItem{
+.skillItem {
     border: 1px solid fuchsia;
     width: 250px;
     display: flex;
@@ -8,12 +8,20 @@
     text-align: center;
 
 }
-.icon{
+
+.icon {
     width: 60px;
     min-height: 60px;
     background-color: #919191;
 
 }
-.description{
 
+.fa_icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.fa_icon_svg {
+    width: 50px;
+    background-color: black;
 }
