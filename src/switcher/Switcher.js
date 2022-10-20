@@ -1,6 +1,8 @@
 import React from 'react';
 import style from "./Switcher.module.css"
 import spinner from "./../assets/img/settings.svg"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGear} from "@fortawesome/free-solid-svg-icons";
 
 
 export const Switcher = () => {
@@ -9,7 +11,8 @@ export const Switcher = () => {
     }
     return (
         <div className={style.switcher} onClick={onSwitchClickHandler}>
-            <img src={spinner} alt="spinner" className={style.spin}/>
+            <FontAwesomeIcon icon={faGear} className={style.spin}/>
+   {/*         <img src={spinner} alt="spinner" className={style.spin}/>*/}
         </div>
     );
 };
