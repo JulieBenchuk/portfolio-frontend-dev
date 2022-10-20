@@ -3,8 +3,9 @@ import style from "./Contacts.module.css"
 import styleContainer from "./../container/container.module.css"
 import {Title} from "../common/title/Title";
 import {SuperButton} from "../common/superButton/SuperButton";
-import call from "./../assets/img/call.svg"
-import mail from "./../assets/img/nav_contacts.svg"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faPhone} from "@fortawesome/free-solid-svg-icons";
 
 
 export const Contacts = () => {
@@ -20,14 +21,14 @@ export const Contacts = () => {
                             ideas or opportunities to be part of your visions.
                         </p>
                         <p className={style.mail}>
-                            <img src={mail} alt="mail" className={style.mailIcon}/>
+                            <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
                             <div className={style.mailMeColumn}>
                                 <span className={style.mailMeTitle}>Mail me</span>
                                 juliebenchuk@gmail.com
                             </div>
                         </p>
                         <p className={style.call}>
-                            <img src={call} alt="call" className={style.callIcon}/>
+                            <FontAwesomeIcon icon={faPhone} className={style.fa_icon}/>
                             <div className={style.callMeColumn}>
                                 <span className={style.callMeTitle}>Call me</span>
                                 +375 44 559 06 60

@@ -114,6 +114,7 @@
         width: 90%;
     }
 }
+
 @media screen and (max-width: 620px) {
     .formInput {
         width: 80%;
@@ -182,19 +183,15 @@
     font-size: 15px;
 }
 
-.mailIcon, .callIcon {
-    width: 20px;
-    left: 0;
-    top: 10px;
-    font-size: 33px;
-    background-color: mediumpurple;
-
-}
 
 .mailMeTitle, .callMeTitle {
     text-transform: uppercase;
     opacity: .8;
     font-weight: 400;
     line-height: 21px;
+}
+
+.fa_icon {
+    font-size: 20px;
 }
 

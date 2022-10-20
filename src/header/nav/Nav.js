@@ -1,31 +1,32 @@
 import React from "react";
 import style from "./Nav.module.css"
 import homeStyle from "./../../App.module.css"
-import home from "../../assets/img/nav_home.svg"
-import contacts from "../../assets/img/nav_contacts.svg"
-import portfolio from "../../assets/img/nav_portfolio.svg"
-import skills from "../../assets/img/nav_skills.svg"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHouse} from "@fortawesome/free-solid-svg-icons";
+import {faAddressCard} from "@fortawesome/free-solid-svg-icons";
+import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export const Nav = () => {
     return (<div className={style.nav}>
         <a href="/description">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <span> HOME </span> <img src={home} className={style.nav_icon} alt="home"/>
+                <span> HOME </span> <FontAwesomeIcon icon={faHouse} className={style.fa_icon}/>
             </h2>
         </a>
         <a href="/skills">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <span> ABOUT </span> <img src={skills} className={style.nav_icon} alt="skills"/>
+                <span> ABOUT </span> <FontAwesomeIcon icon={faAddressCard} className={style.fa_icon}/>
             </h2>
         </a>
         <a href="/projects">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <span> WORKS </span> <img src={portfolio} className={style.nav_icon} alt="portfolio"/>
+                <span> WORKS </span> <FontAwesomeIcon icon={faBriefcase} className={style.fa_icon}/>
             </h2>
         </a>
         <a href="/contacts">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
-                <span> CONTACT </span> <img src={contacts} className={style.nav_icon} alt="contacts"/>
+                <span> CONTACT </span> <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
             </h2>
         </a>
     </div>);
