@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./SuperButton.module.css";
-import styleHome from "../../App.module.css";
-import arrow from "../../assets/img/btn_arrow_right.webp";
+import styleHome from "../../../App.module.css";
+import arrow from "../../../assets/img/btn_arrow_right.webp";
 
 export const SuperButton = (props) => {
     return (

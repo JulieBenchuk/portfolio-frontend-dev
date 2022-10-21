@@ -1,13 +1,15 @@
 import React from "react";
 import style from "./Description.module.css"
 import styleHome from "./../App.module.css"
-import styleContainer from "./../container/container.module.css"
-import {SuperButton} from "../common/superButton/SuperButton";
-import avatar from "./../assets/img/avatar.jpg"
+import styleContainer from "../common/styles/container/container.module.css"
+import {SuperButton} from "../common/components/superButton/SuperButton";
+import avatar from "./../assets/img/avatar.jpg";
+import {ParticlesContainer} from "../common/styles/particles/Particles";
 
 
 export const Description = () => {
     return (<div className={styleContainer.container}>
+        <ParticlesContainer/>
         <div className={`${style.color_block} ${styleHome.home_bgrd_color}`}/>
         <div className={style.description}>
             <div className={style.avatar_block}>

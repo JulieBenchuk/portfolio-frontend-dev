@@ -1,5 +1,5 @@
 .container {
-    border: 1px solid #e51313;
+   /* border: 1px solid #e51313;*/
     min-height: 100vh;
     width: 95vw;
     display: flex;

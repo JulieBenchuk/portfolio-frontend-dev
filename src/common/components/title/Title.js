@@ -1,5 +1,5 @@
 import React from 'react';
-import homeStyle from "../../App.module.css";
+import homeStyle from "../../../App.module.css";
 import style from "./Title.module.css"
 
 export const Title = (props) => {

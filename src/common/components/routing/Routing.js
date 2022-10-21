@@ -1,9 +1,9 @@
 import React from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
-import {Description} from "../../description/Description";
-import {Skills} from "../../skills/Skills";
-import {Projects} from "../../projects/Projects";
-import {Contacts} from "../../contacts/Contacts";
+import {Description} from "../../../description/Description";
+import {Skills} from "../../../skills/Skills";
+import {Projects} from "../../../projects/Projects";
+import {Contacts} from "../../../contacts/Contacts";
 
 export const Routing = () => {
     return (

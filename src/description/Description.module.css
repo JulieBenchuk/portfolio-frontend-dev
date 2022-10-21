@@ -6,6 +6,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    z-index: 1;
 
 }
 
@@ -54,7 +55,7 @@ p {
 }
 
 .color_block {
-    z-index: 0;
+    z-index: 1;
     position: absolute;
     height: 200%;
     width: 100%;
