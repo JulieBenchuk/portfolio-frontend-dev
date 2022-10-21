@@ -29,6 +29,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: all 1s ease-out;
+}
+.image:hover{
+    transform: scale(110%, 110%);
+    transition: all 1s ease-out;
 }
 .image::before{
     position: absolute;

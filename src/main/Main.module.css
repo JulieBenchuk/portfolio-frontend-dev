@@ -20,7 +20,6 @@ span {
 }
 
 .avatar {
-
     max-width: 100%;
     border-radius: 10%;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
@@ -73,7 +72,7 @@ p {
     }
 
     .color_block {
-        z-index: -1;
+        display: none;
     }
 
     .avatar_block {

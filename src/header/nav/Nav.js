@@ -9,7 +9,7 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export const Nav = () => {
     return (<div className={style.nav}>
-        <a href="/description">
+        <a href="/main">
             <h2 className={`${style.menu_item} ${homeStyle.home_bgrd_color}`}>
                 <span> HOME </span> <FontAwesomeIcon icon={faHouse} className={style.fa_icon}/>
             </h2>
