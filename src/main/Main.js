@@ -5,6 +5,7 @@ import {SuperButton} from "../common/components/superButton/SuperButton";
 import avatar from "./../assets/img/avatar.jpg";
 import {ParticlesContainer} from "../common/styles/particles/Particles";
 import Slide from 'react-reveal/Slide';
+import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 
 export const Main = () => {
@@ -30,7 +31,7 @@ export const Main = () => {
                         Familiarity with RESTful APIs
                         Familiarity with HTML / CSS
                     </p>
-                    <SuperButton title={"More about me"} url={"/skills"}/>
+                    <SuperButton title={"More about me"} url={"/skills"} icon={faArrowRight}/>
                 </div>
             </div>
         </Slide>

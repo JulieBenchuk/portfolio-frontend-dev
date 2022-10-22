@@ -6,6 +6,7 @@ import {SuperButton} from "../common/components/superButton/SuperButton";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import Slide from 'react-reveal/Slide';
 
 
@@ -58,7 +59,7 @@ export const Contacts = () => {
                                         <div className={style.formColumn}>
                                              <textarea name="message" placeholder="YOUR MESSAGE"
                                                        className={style.formTextarea}></textarea>
-                                            <SuperButton title={"Send message"}/>
+                                            <SuperButton title={"Send message"} icon={faPaperPlane}/>
                                         </div>
                                     </div>
                                 </div>

@@ -29,20 +29,21 @@
     text-decoration: none;
     background-color: transparent;
 
+
     .button_icon {
+      border: 15px solid $primaryColor;
+      font-size: 25px;
       background-color: $primaryColor;
       position: absolute;
       right: -1px;
       top: -1px;
       bottom: 0;
-      max-width: 55px;
-      max-height: 55px;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 19px;
       color: $textColor;
       border-radius: 50%;
+      fill: $textColor;
     }
   }
 }
