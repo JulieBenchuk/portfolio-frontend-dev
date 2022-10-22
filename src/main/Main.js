@@ -1,7 +1,6 @@
 import React from "react";
-import style from "./Main.module.css"
-import styleHome from "./../App.module.css"
-import styleContainer from "../common/styles/container/container.module.css"
+import style from "./Main.module.scss"
+import styleContainer from "../common/styles/container/container.module.scss"
 import {SuperButton} from "../common/components/superButton/SuperButton";
 import avatar from "./../assets/img/avatar.jpg";
 import {ParticlesContainer} from "../common/styles/particles/Particles";
@@ -11,7 +10,7 @@ import Slide from 'react-reveal/Slide';
 export const Main = () => {
     return (<div className={styleContainer.container} id={"main"}>
         <ParticlesContainer/>
-        <div className={`${style.color_block} ${styleHome.home_bgrd_color}`}/>
+        <div className={style.color_block}/>
         <Slide bottom>
             <div className={style.description}>
                 <div className={style.avatar_block}>
@@ -19,7 +18,7 @@ export const Main = () => {
                 </div>
                 <div className={style.text}>
                     <h1 className={style.text_up}>
-                        <div className={styleHome.home_color}>- I'm Julie.</div>
+                        <div>- I'm Julie.</div>
                         <span>Frontend developer</span>
                     </h1>
                     <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model

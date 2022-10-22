@@ -1,12 +1,11 @@
 import React from 'react';
-import homeStyle from "../../../App.module.css";
-import style from "./Title.module.css"
+import style from "./Title.module.scss"
 
 export const Title = (props) => {
     return (
         <section className={style.section}>
             <h1 className={style.title}>{props.title_1st + " "}
-                <span className={homeStyle.home_color}>
+                <span>
                     {props.title_2nd}
                 </span>
                 <span className={style.shadow}>

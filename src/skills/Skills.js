@@ -1,6 +1,6 @@
 import React from 'react';
-import styleContainer from "../common/styles/container/container.module.css"
-import style from "./Skills.module.css"
+import styleContainer from "../common/styles/container/container.module.scss"
+import style from "./Skills.module.scss"
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import {faReact} from "@fortawesome/free-brands-svg-icons";
@@ -10,9 +10,9 @@ import {faCss3Alt} from "@fortawesome/free-brands-svg-icons";
 import {faSass} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
-import {redux_icon} from "./../assets/img/svg/redux"
-import {ts_icon} from "./../assets/img/svg/ts"
-import {test_icon} from "./../assets/img/svg/test"
+import {redux_icon} from "../assets/img/svg/redux"
+import {ts_icon} from "../assets/img/svg/ts"
+import {test_icon} from "../assets/img/svg/test"
 import Slide from 'react-reveal/Slide';
 
 

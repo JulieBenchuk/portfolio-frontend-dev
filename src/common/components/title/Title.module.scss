@@ -1,0 +1,45 @@
+@import "./../../../common/styles/sass/variables";
+.section {
+  margin: 0 auto;
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+
+  .title {
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    span{
+      color: $primaryColor;
+    }
+
+
+    .shadow {
+      font-size: 110px;
+      left: 0;
+      letter-spacing: 10px;
+      line-height: 0.7;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      text-transform: uppercase;
+      font-weight: 800;
+      transform: translateY(-50%) translateX(-30%);
+      color: rgba(255, 255, 255, 0.07);
+      transition: 0.5s;
+      @media screen and (max-width: 710px) {
+        transform: translateY(-50%) translateX(-25%);
+        font-size: 100px;
+      }
+      @media screen and (max-width: 630px) {
+        transform: translateY(-50%) translateX(-17%);
+        font-size: 90px;
+      }
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+}
+

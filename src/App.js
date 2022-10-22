@@ -1,7 +1,7 @@
-import './App.module.css';
+import './App.module.scss';
 import React from "react";
 import {Header} from "./header/Header";
-import style from "./App.module.css"
+import style from "./App.module.scss"
 import {Switcher} from "./switcher/Switcher";
 import {Routing} from "./common/components/routing/Routing";
 

@@ -1,6 +1,6 @@
 import React from "react";
-import style from "./Contacts.module.css"
-import styleContainer from "../common/styles/container/container.module.css"
+import style from "./Contacts.module.scss"
+import styleContainer from "../common/styles/container/container.module.scss"
 import {Title} from "../common/components/title/Title";
 import {SuperButton} from "../common/components/superButton/SuperButton";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -56,8 +56,8 @@ export const Contacts = () => {
                                             </div>
                                         </div>
                                         <div className={style.formColumn}>
-                                        <textarea name="message" placeholder="YOUR MESSAGE"
-                                                  className={style.formTextarea}></textarea>
+                                             <textarea name="message" placeholder="YOUR MESSAGE"
+                                                       className={style.formTextarea}></textarea>
                                             <SuperButton title={"Send message"}/>
                                         </div>
                                     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-import style from "./Project.module.css"
-import homeStyle from "./../../App.module.css"
+import style from "./Project.module.scss"
 
 
 export const Project = (props) => {
@@ -8,7 +7,7 @@ export const Project = (props) => {
         <div className={style.projectItem}>
             <div style={props.style} className={style.image}>
                 <div className={style.button}>
-                    <a href={props.url} target="_blank" className={`${style.btn_ref} ${homeStyle.home_btn_border} ${homeStyle.home_color}`}>See more</a>
+                    <a href={props.url} target="_blank" className={style.btn_ref}>See more</a>
                 </div>
             </div>
             <div className={style.description}>
