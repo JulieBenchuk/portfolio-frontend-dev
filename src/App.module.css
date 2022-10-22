@@ -33,7 +33,7 @@ h1 {
     color: darkcyan;
 }
 
-.home_bgrd_color {
+.home_bgrd_color:hover {
     /*  background-color: #ffb400;*/
     /*background-color: #ff00b7;*/
     background-color: darkcyan;
