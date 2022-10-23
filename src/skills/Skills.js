@@ -24,25 +24,25 @@ export const Skills = () => {
                     <Title title_1st={"About"} title_2nd={"me"} shadow_title={"resume"}/>
                     <div className={style.skills}>
                         <Skill title={"JS"} icon={faJs}
-                               description={"JavaScript is a programming language that allows developers to create interactive elements on websites. It’s important for junior developers to have JavaScript skills because it can help them build the foundation of web pages and applications. JavaScript also enables developers to use frameworks like AngularJS, which is an increasingly popular tool in software development.a"}/>
-                        <Skill title={"HTML"} icon={faHtml5}
-                               description={"Yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo  aaaaaaa aaaaaaa aaaaaa aaaaaa yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yoYo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo yo"}/>
+                               description={"ES6. Solid knowledge of JavaScript. JavaScript ecosystem tools (webpack, npm, yarn)."}/>
                         <Skill title={"React"} icon={faReact}
-                               description={"Wow wow wow wow wow wow wow wow wow wow wow wow wow  wow wow wow"}/>
+                               description={"Strong React knowledge, both on hook and class-based."}/>
                         <Skill title={"Redux"} icon_svg={redux_icon}
-                               description={"redux redux redux"}/>
+                               description={"Experience in Redux and Redux Thunk."}/>
                         <Skill title={"TypeScript"} icon_svg={ts_icon}
-                               description={"TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor."}/>
+                               description={"Basic Typescript knowledge."}/>
+                        <Skill title={"HTML"} icon={faHtml5}
+                               description={"HTML5, DOM, Semantic HTML."}/>
                         <Skill title={"CSS"} icon={faCss3Alt}
-                               description={"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]"}/>
+                               description={"Responsive design. CSS-modules."}/>
                         <Skill title={"Sass/SCSS"} icon={faSass}
-                               description={"Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."}/>
+                               description={"Experience in CSS preprocessor like SASS, SCSS."}/>
                         <Skill title={"Git"} icon={faGithub}
-                               description={"Junior developers need to know how to use source control software, which is a system that records and stores all of the changes made to a website or application. This allows developers to revert back to previous versions if they make unwanted changes or mistakes. It also allows them to share their work with others so that multiple people can collaborate on projects."}/>
-                        <Skill title={"Unit-testing"} icon_svg={test_icon}
-                               description={"Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."}/>
+                               description={"Familiarity with code versioning tool such as Git."}/>
+                        <Skill title={"Testing"} icon_svg={test_icon}
+                               description={"Experience with unit testing, API testing (Postman)."}/>
                         <Skill title={"REST API"} icon={faGlobe}
-                               description={"A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources."}/>
+                               description={"Experience in working with RESTful services."}/>
                     </div>
                 </div>
             </Slide>

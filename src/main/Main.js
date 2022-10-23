@@ -31,7 +31,7 @@ export const Main = () => {
                         Familiarity with RESTful APIs
                         Familiarity with HTML / CSS
                     </p>
-                    <SuperButton title={"More about me"} url={"/skills"} icon={faArrowRight}/>
+                    <SuperButton title={"About my skills"} url={"/skills"} icon={faArrowRight}/>
                 </div>
             </div>
         </Slide>

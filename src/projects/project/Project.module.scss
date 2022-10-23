@@ -1,4 +1,5 @@
 @import "./../../common/styles/sass/variables";
+
 .projectItem {
   max-width: 360px;
   padding-right: 15px;
@@ -85,8 +86,9 @@
     .description_text {
       margin: 0;
       color: $textColor;
-      font-size: 13px;
       line-height: 1.6;
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 }
