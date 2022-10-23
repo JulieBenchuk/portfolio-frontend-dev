@@ -1,6 +1,9 @@
 @import "./../common/styles/sass/variables";
 .contactsBlock {
   min-height: 100vh;
+  @media screen and (max-width: 930px) {
+    padding-bottom: 20px;
+  }
 
   .contactsContainer {
     align-items: center;

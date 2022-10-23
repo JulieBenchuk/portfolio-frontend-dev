@@ -1,3 +1,4 @@
+@import "./../../common/styles/sass/variables";
 .skillItem {
   width: 250px;
   display: flex;
@@ -16,7 +17,7 @@
 
   .description {
     margin: 0;
-    color: #eee;
+    color: $primaryColor;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
   }

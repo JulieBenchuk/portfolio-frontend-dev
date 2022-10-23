@@ -7,7 +7,7 @@ export const SuperButton = (props) => {
     return (
         <div className={style.button}>
             <a href={props.url}>
-                {props.title}
+                <span>{props.title}</span>
                 <FontAwesomeIcon icon={props.icon} className={style.button_icon}/>
             </a>
         </div>

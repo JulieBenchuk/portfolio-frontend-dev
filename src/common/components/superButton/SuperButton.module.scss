@@ -21,6 +21,11 @@
   font-weight: 600;
   color: $textColor;
   background-color: transparent;
+  span{
+    position: absolute;
+    right: 50px;
+    left: 0;
+  }
   &:hover{
     background-color: $primaryColor;
   }
@@ -28,6 +33,14 @@
     color: $textColor;
     text-decoration: none;
     background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
     .button_icon {
