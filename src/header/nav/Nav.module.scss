@@ -9,7 +9,6 @@
   color: $textColor;
 
   a {
-
     .menu_item {
       display: flex;
       justify-content: center;
@@ -42,6 +41,10 @@
       }
 
 
+    }
+    .menu_item_active{
+      @extend .menu_item;
+      background-color: $primaryColor;
     }
   }
 

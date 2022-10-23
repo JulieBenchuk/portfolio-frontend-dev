@@ -5,29 +5,31 @@ import {faHouse} from "@fortawesome/free-solid-svg-icons";
 import {faAddressCard} from "@fortawesome/free-solid-svg-icons";
 import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {NavLink, useLocation} from "react-router-dom";
 
 export const Nav = () => {
+    const currentRoute = useLocation().pathname;
     return (<div className={style.nav}>
-        <a href="/main">
-            <h2 className={style.menu_item}>
+        <NavLink to="main">
+            <h2 className={currentRoute.includes("main") ? style.menu_item_active : style.menu_item}>
                 <span> HOME </span> <FontAwesomeIcon icon={faHouse} className={style.fa_icon}/>
             </h2>
-        </a>
-        <a href="/skills">
-            <h2 className={style.menu_item}>
+        </NavLink>
+        <NavLink to="skills">
+            <h2 className={currentRoute.includes("skills") ? style.menu_item_active : style.menu_item}>
                 <span> ABOUT </span> <FontAwesomeIcon icon={faAddressCard} className={style.fa_icon}/>
             </h2>
-        </a>
-        <a href="/projects">
-            <h2 className={style.menu_item}>
+        </NavLink>
+        <NavLink to="projects">
+            <h2 className={currentRoute.includes("projects") ? style.menu_item_active : style.menu_item}>
                 <span> WORKS </span> <FontAwesomeIcon icon={faBriefcase} className={style.fa_icon}/>
             </h2>
-        </a>
-        <a href="/contacts">
-            <h2 className={style.menu_item}>
+        </NavLink>
+        <NavLink to="contacts">
+            <h2 className={currentRoute.includes("contacts") ? style.menu_item_active : style.menu_item}>
                 <span> CONTACT </span> <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
             </h2>
-        </a>
+        </NavLink>
     </div>);
 }
 
