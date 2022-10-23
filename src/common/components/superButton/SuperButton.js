@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./SuperButton.module.scss";
-import arrow from "../../../assets/img/btn_arrow_right.webp";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 

@@ -33,15 +33,12 @@ export const Projects = () => {
                     <Title title_1st={"My"} title_2nd={"portfolio"} shadow_title={"projects"}/>
                     <div className={style.projects}>
                         <Project name={'Social network'} style={socialStyle}
-                                 url={'https://juliebenchuk.github.io/social-network/'} shortDescription={`Short description
-                    hhhhhhhhhh  hhhhhhhhhh  hhhhhhhhhh`}/>
-                        <Project name={'To do list'} style={todoStyle}
+                                 url={'https://juliebenchuk.github.io/social-network/'} shortDescription={`Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.`}/>
+                        <Project name={'To-do list'} style={todoStyle}
                                  url={'https://juliebenchuk.github.io/toDoList_2nd_version/'}
-                                 shortDescription={`Todoist makes it easy to go as simple or as complex as you want`}/>
-                        <Project name={'Cards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'}
-                                 shortDescription={`At Quizlet, we believe that anyone can learn anything. All it takes is a tenacious spirit, the right guidance and the tools to see it through.
-We know that students are under more pressure than ever. It can leave them feeling overwhelmed, produce anxiety and make it all too easy to burn out.
-It’s our job to give every student the tools and confidence to succeed, no matter their motivation or what they’re striving to achieve.`}/>
+                                 shortDescription={`It’s a list of tasks you need to complete or things that you want to do.  Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.`}/>
+                        <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'}
+                                 shortDescription={`Flashcards are a great tool when you want to memorize a new topic or learn a new language. You write a question and the answer on the card. Then you can test your memory by going through the flashcards.  You can build your own flashcards app.`}/>
                     </div>
                 </div>
             </Slide>
