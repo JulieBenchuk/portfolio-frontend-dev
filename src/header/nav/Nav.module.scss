@@ -21,7 +21,7 @@
       margin: 0;
       background: $otherBckgrdColor;
       span{
-        @media screen and (max-width: 617px){
+        @media screen and (max-width: 400px){
           display: none;
           transition: none;
         }
@@ -35,7 +35,7 @@
         width: 110px;
         transition: .3s;
         font-size: 11px;
-        @media screen and (max-width: 617px){
+        @media screen and (max-width: 400px){
           width: 40px;
           transition: none;
         }
