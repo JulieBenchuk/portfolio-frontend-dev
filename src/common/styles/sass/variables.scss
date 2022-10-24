@@ -1,13 +1,18 @@
 $greenishBlue: #1b8a82;
-$orange: #e1724d;
+$orange: #fa5b0f;
 $green: #5f865f;
 $rose: #e867b0;
-$red: #dc2e2e;
+$red: #e54b4b;
 $blue: #5483d9;
 $purple: #7810d3;
+$yellow: #d7d12f;
+$darkBlue: #254f9c;
+$salad: #86d72f;
 
 
 $textColor: #fff;
-$primaryColor: $greenishBlue;
 $mainBckgrdColor: #111;
 $otherBckgrdColor: #2b2a2a;
+$primaryColor: var(--color);
+
+

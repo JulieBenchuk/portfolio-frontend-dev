@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export const SuperButton = (props) => {
     return (
         <div className={style.button}>
-            <a href={props.url}>
+            <a href={props.id}>
                 <span>{props.title}</span>
                 <FontAwesomeIcon icon={props.icon} className={style.button_icon}/>
             </a>
