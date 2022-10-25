@@ -10,7 +10,33 @@ import {NavLink, useLocation} from "react-router-dom";
 export const Nav = () => {
     const currentRoute = useLocation().pathname;
     return (<div className={style.nav}>
-        <NavLink to="main">
+        <li>
+            <FontAwesomeIcon icon={faHouse} className={style.fa_icon}/>
+            <NavLink to="main">
+                <h2>HOME</h2>
+            </NavLink>
+        </li>
+        <li>
+            <FontAwesomeIcon icon={faAddressCard} className={style.fa_icon}/>
+            <NavLink to="skills">
+                <h2>ABOUT</h2>
+            </NavLink>
+        </li>
+        <li>
+            <FontAwesomeIcon icon={faBriefcase} className={style.fa_icon}/>
+            <NavLink to="projects">
+                <h2>WORKS</h2>
+            </NavLink>
+        </li>
+        <li>
+            <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
+            <NavLink to="contacts">
+                <h2>CONTACT</h2>
+            </NavLink>
+        </li>
+
+
+        {/* <NavLink to="main">
             <h2 className={currentRoute.includes("main") ? style.menu_item_active : style.menu_item}>
                 <span> HOME </span> <FontAwesomeIcon icon={faHouse} className={style.fa_icon}/>
             </h2>
@@ -29,7 +55,7 @@ export const Nav = () => {
             <h2 className={currentRoute.includes("contacts") ? style.menu_item_active : style.menu_item}>
                 <span> CONTACT </span> <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
             </h2>
-        </NavLink>
+        </NavLink>*/}
     </div>);
 }
 
