@@ -44,7 +44,7 @@
 
 
     .button_icon {
-      border: 10px solid $primaryColor;
+      border: 1px solid $primaryColor;
       font-size: 25px;
       background-color: $primaryColor;
       position: absolute;
@@ -57,7 +57,7 @@
       color: $textColor;
       border-radius: 50%;
       fill: $textColor;
-      padding: 5px;
+      padding: 14px;
     }
   }
 }
