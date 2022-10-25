@@ -1,8 +1,6 @@
 @import "./../common/styles/sass/variables";
 .skillsBlock {
     min-height: 100vh;
-    background-color: $mainBckgrdColor;
-    z-index: 1;
     padding-bottom: 20px;
     .skillsContainer {
         align-items: center;
