@@ -3,6 +3,7 @@
 .skillsBlock {
   min-height: 100vh;
   padding-bottom: 20px;
+  overflow-y: hidden;
 
   .skillsContainer {
     align-items: center;
