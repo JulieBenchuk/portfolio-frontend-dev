@@ -13,6 +13,7 @@ import {faAngular} from "@fortawesome/free-brands-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {redux_icon} from "../assets/img/svg/redux";
 import {ts_icon} from "../assets/img/svg/ts";
+import {express_icon} from "../assets/img/svg/express";
 import {test_icon} from "../assets/img/svg/test"
 import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
@@ -41,7 +42,7 @@ export const Skills = () => {
                                             <Info title={"First name"} value={"Julie"}/>
                                             <Info title={"Last name"} value={"Benchuk"}/>
                                             <Info title={"Age"} value={"28 y.o"}/>
-                                            <Info title={"Nationality"} value={"Belorussian"}/>
+                                            <Info title={"Nationality"} value={"Belarusian"}/>
                                             <Info title={"Freelance"} value={"Available"}/>
                                         </ul>
                                     </div>
@@ -52,7 +53,7 @@ export const Skills = () => {
                                             <Info title={"Email"} value={"juliebenchuk@gmail.com"}/>
                                             <Info title={"Education"}
                                                   value={"Gomel State University, Banking and Finance"}/>
-                                            <Info title={"Languages"} value={"Belorussian (native), English (B1)"}/>
+                                            <Info title={"Languages"} value={"Belarusian (native), English (B1)"}/>
                                         </ul>
                                     </div>
                                 </div>
@@ -99,6 +100,8 @@ export const Skills = () => {
                                    description={"Familiarity with code versioning tool such as Git."}/>
                             <Skill title={"Heroku"} icon_svg={heroku_icon}
                                    description={"Experience in servless (Heroku)."}/>
+                            <Skill title={"Express"} icon_svg={express_icon}
+                                   description={"Express."}/>
                             <Skill title={"Testing"} icon_svg={test_icon}
                                    description={"Experience with unit testing, API testing (Postman)."}/>
                         </div>
