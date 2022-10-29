@@ -52,7 +52,7 @@ export const Skills = () => {
                                             <Info title={"Phone"} value={"+375 44 559 06 60"}/>
                                             <Info title={"Email"} value={"juliebenchuk@gmail.com"}/>
                                             <Info title={"Education"}
-                                                  value={"Gomel State University, Banking and Finance"}/>
+                                                  value={"Gomel State University - Banking and Finance. IT-INCUBATOR - Front-end development training"}/>
                                             <Info title={"Languages"} value={"Belarusian (native), English (B1)"}/>
                                         </ul>
                                     </div>
