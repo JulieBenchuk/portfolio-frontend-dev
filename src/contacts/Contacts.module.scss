@@ -188,6 +188,59 @@
                     width: 80%;
                   }
                 }
+                .button {
+                  border: 1px solid $primaryColor;
+                  width: 260px;
+                  height: 55px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  line-height: 1.4;
+                  border-radius: 35px;
+                  text-overflow: ellipsis;
+                  text-align: center;
+                  cursor: pointer;
+                  vertical-align: middle;
+                  transition: background-color 300ms ease-out;
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  position: relative;
+                  z-index: 1;
+                  padding: 16px 70px 16px 35px;
+                  font-weight: 600;
+                  color: $textColor;
+                  background-color: transparent;
+
+                  span {
+                    position: absolute;
+                    right: 50px;
+                    left: 0;
+                    font-weight: 600;
+                    line-height: 1.4;
+                    font-size: 15px;
+                  }
+
+                  &:hover {
+                    background-color: $primaryColor;
+                  }
+
+                  .button_icon {
+                    border: 1px solid $primaryColor;
+                    font-size: 25px;
+                    background-color: $primaryColor;
+                    position: absolute;
+                    right: -1px;
+                    top: -1px;
+                    bottom: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $textColor;
+                    border-radius: 50%;
+                    fill: $textColor;
+                    padding: 14px;
+                  }
+                }
               }
             }
           }
@@ -196,6 +249,7 @@
     }
   }
 }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,

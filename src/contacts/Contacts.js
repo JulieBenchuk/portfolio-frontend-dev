@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Contacts.module.scss"
 import styleContainer from "../common/styles/container/container.module.scss"
 import {Title} from "../common/components/title/Title";
-import {SuperButton} from "../common/components/superButton/SuperButton";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
@@ -42,6 +41,7 @@ export const Contacts = () => {
                             <form>
                                 <div className={style.contactForm}>
                                     <div className={style.row}>
+
                                         <div className={style.inputsBlock}>
                                             <div className={style.formColumn}>
                                                 <input type="text" name="name" placeholder="YOUR NAME"
@@ -56,10 +56,17 @@ export const Contacts = () => {
                                                        className={style.formInput}/>
                                             </div>
                                         </div>
+
                                         <div className={style.formColumn}>
                                              <textarea name="message" placeholder="YOUR MESSAGE"
                                                        className={style.formTextarea}></textarea>
-                                            <SuperButton title={"Send message"} icon={faPaperPlane}/>
+                                            {/* <SuperButton title={"Send message"} icon={faPaperPlane}/>*/}
+
+                                            <button className={style.button}>
+                                                <span>Send message</span>
+                                                <FontAwesomeIcon icon={faPaperPlane} className={style.button_icon}/>
+                                            </button>
+
                                         </div>
                                     </div>
                                 </div>
