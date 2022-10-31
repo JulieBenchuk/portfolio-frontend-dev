@@ -7,9 +7,31 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import Slide from 'react-reveal/Slide';
+import {useFormik} from "formik";
+import axios from 'axios';
 
 
 export const Contacts = () => {
+
+    const formik = useFormik({
+        initialValues: {
+            name: '', email: '', subject: '', message: ''
+        }, onSubmit: (values, {resetForm}) => {
+
+            axios.post("https://myportfolio-smtp-server.herokuapp.com/", {
+                name: JSON.stringify(values.name),
+                email: JSON.stringify(values.email),
+                subject: JSON.stringify(values.subject),
+                message: JSON.stringify(values.message)
+            })
+                .then(() => {
+                    alert("Your message has been sent! Thanks for your interest. I will definitely contact you when I have time.")
+                    resetForm()
+                })
+        },
+    });
+
+
     return <div className={style.contactsBlock}>
         <Slide bottom>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
@@ -38,31 +60,34 @@ export const Contacts = () => {
                             </p>
                         </div>
                         <div className={`${style.column} ${style.columnRight}`}>
-                            <form>
+                            <form onSubmit={formik.handleSubmit}>
                                 <div className={style.contactForm}>
                                     <div className={style.row}>
 
                                         <div className={style.inputsBlock}>
                                             <div className={style.formColumn}>
-                                                <input type="text" name="name" placeholder="YOUR NAME"
-                                                       className={style.formInput}/>
+                                                <input type="text" placeholder="YOUR NAME"
+                                                       className={style.formInput}
+                                                       value={formik.values.name} {...formik.getFieldProps("name")}/>
                                             </div>
                                             <div className={style.formColumn}>
-                                                <input type="text" name="email" placeholder="YOUR EMAIL"
-                                                       className={style.formInput}/>
+                                                <input type="text" placeholder="YOUR EMAIL"
+                                                       className={style.formInput}
+                                                       value={formik.values.email} {...formik.getFieldProps("email")}/>
                                             </div>
                                             <div className={style.formColumn}>
-                                                <input type="text" name="subject" placeholder="YOUR SUBJECT"
-                                                       className={style.formInput}/>
+                                                <input type="text" placeholder="YOUR SUBJECT"
+                                                       className={style.formInput}
+                                                       value={formik.values.subject} {...formik.getFieldProps("subject")}/>
                                             </div>
                                         </div>
 
                                         <div className={style.formColumn}>
-                                             <textarea name="message" placeholder="YOUR MESSAGE"
-                                                       className={style.formTextarea}></textarea>
-                                            {/* <SuperButton title={"Send message"} icon={faPaperPlane}/>*/}
+                                             <textarea placeholder="YOUR MESSAGE"
+                                                       className={style.formTextarea}
+                                                       value={formik.values.message} {...formik.getFieldProps("message")}/>
 
-                                            <button className={style.button}>
+                                            <button type={"submit"} className={style.button}>
                                                 <span>Send message</span>
                                                 <FontAwesomeIcon icon={faPaperPlane} className={style.button_icon}/>
                                             </button>
