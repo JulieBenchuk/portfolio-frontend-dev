@@ -12,7 +12,7 @@ export const Main = () => {
     return (<div className={styleContainer.container} id={"main"}>
         <ParticlesContainer/>
         <div className={style.color_block}/>
-        <Slide direction={"up"}>
+        <Slide direction={"left"}>
             <div className={style.description}>
                 <div className={style.avatar_block}>
                     <img className={style.avatar} src={avatar} alt="avatar"/>

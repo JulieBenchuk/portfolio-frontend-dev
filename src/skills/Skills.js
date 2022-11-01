@@ -25,7 +25,7 @@ import {Achievement} from "./achievement/Achievement";
 export const Skills = () => {
     return (
         <div className={style.skillsBlock} id={"skills"}>
-            <Slide direction={"left"}>
+            <Slide direction={"right"}>
                 <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
                     <Title title_1st={"About"} title_2nd={"me"} shadow_title={"resume"}/>

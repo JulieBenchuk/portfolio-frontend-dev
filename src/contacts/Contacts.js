@@ -38,7 +38,7 @@ export const Contacts = () => {
 
 
     return <div className={style.contactsBlock}>
-        <Slide direction={"left"}>
+        <Slide direction={"right"}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title_1st={"Get in"} title_2nd={"touch"} shadow_title={"contact"}/>
                 <div className={style.container}>
