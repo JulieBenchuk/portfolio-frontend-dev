@@ -4,7 +4,7 @@ import styleContainer from "../common/styles/container/container.module.scss"
 import {SuperButton} from "../common/components/superButton/SuperButton";
 import avatar from "./../assets/img/avatar.jpg";
 import {ParticlesContainer} from "../common/styles/particles/Particles";
-import Slide from 'react-reveal/Slide';
+import {Slide} from "react-awesome-reveal";
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 
@@ -12,7 +12,7 @@ export const Main = () => {
     return (<div className={styleContainer.container} id={"main"}>
         <ParticlesContainer/>
         <div className={style.color_block}/>
-        <Slide bottom>
+        <Slide direction={"up"}>
             <div className={style.description}>
                 <div className={style.avatar_block}>
                     <img className={style.avatar} src={avatar} alt="avatar"/>

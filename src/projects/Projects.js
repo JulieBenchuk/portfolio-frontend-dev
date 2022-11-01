@@ -6,7 +6,7 @@ import {Title} from "../common/components/title/Title";
 import social from "./../assets/img/social_network_img.png"
 import todo from "./../assets/img/todolist_img.jpeg"
 import cards from "./../assets/img/cards_img.jpeg"
-import Slide from 'react-reveal/Slide';
+import {Slide} from "react-awesome-reveal";
 
 
 export const Projects = () => {
@@ -28,7 +28,7 @@ export const Projects = () => {
 
     return (
         <div className={style.projectsBlock} id={"projects"}>
-            <Slide bottom>
+            <Slide direction={"left"}>
                 <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                     <Title title_1st={"My"} title_2nd={"portfolio"} shadow_title={"projects"}/>
                     <div className={style.projects}>

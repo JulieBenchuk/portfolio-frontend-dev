@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
-import Slide from 'react-reveal/Slide';
+import {Slide} from "react-awesome-reveal";
 import {useFormik} from "formik";
 import axios from 'axios';
 
@@ -38,31 +38,31 @@ export const Contacts = () => {
 
 
     return <div className={style.contactsBlock}>
-        <Slide bottom>
+        <Slide direction={"left"}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title_1st={"Get in"} title_2nd={"touch"} shadow_title={"contact"}/>
                 <div className={style.container}>
                     <div className={style.row}>
                         <div className={`${style.column} ${style.columnLeft}`}>
                             <h3 className={style.title}>Don't be shy!</h3>
-                            <p className={style.meText}>
+                            <div className={style.meText}>
                                 Feel free to get in touch with me. I am always open to discussing new projects, creative
                                 ideas or opportunities to be part of your visions.
-                            </p>
-                            <p className={style.mail}>
+                            </div>
+                            <div className={style.mail}>
                                 <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
                                 <div className={style.mailMeColumn}>
                                     <span className={style.mailMeTitle}>Mail me</span>
                                     juliebenchuk@gmail.com
                                 </div>
-                            </p>
-                            <p className={style.call}>
+                            </div>
+                            <div className={style.call}>
                                 <FontAwesomeIcon icon={faPhone} className={style.fa_icon}/>
                                 <div className={style.callMeColumn}>
                                     <span className={style.callMeTitle}>Call me</span>
                                     +375 44 559 06 60
                                 </div>
-                            </p>
+                            </div>
                         </div>
                         <div className={`${style.column} ${style.columnRight}`}>
                             <form onSubmit={formik.handleSubmit}>

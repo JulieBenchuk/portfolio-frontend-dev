@@ -17,7 +17,7 @@ import {express_icon} from "../assets/img/svg/express";
 import {test_icon} from "../assets/img/svg/test"
 import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
-import Slide from 'react-reveal/Slide';
+import {Slide} from "react-awesome-reveal";
 import {Info} from "./info/Info";
 import {Achievement} from "./achievement/Achievement";
 
@@ -25,7 +25,7 @@ import {Achievement} from "./achievement/Achievement";
 export const Skills = () => {
     return (
         <div className={style.skillsBlock} id={"skills"}>
-            <Slide bottom>
+            <Slide direction={"left"}>
                 <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
                     <Title title_1st={"About"} title_2nd={"me"} shadow_title={"resume"}/>
