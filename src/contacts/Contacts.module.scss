@@ -149,6 +149,10 @@
                     transition: .3s;
                     overflow: visible;
 
+                    &:disabled {
+                      opacity: 0.5;
+                    }
+
                     @media screen and (max-width: 715px) {
                       width: 90%;
                     }
@@ -184,10 +188,16 @@
                   resize: vertical;
                   font-family: 'Open Sans', sans-serif;
                   font-size: 15px;
+
+                  &:disabled {
+                    opacity: 0.5;
+                  }
+
                   @media screen and (max-width: 620px) {
                     width: 80%;
                   }
                 }
+
                 .button {
                   border: 1px solid $primaryColor;
                   width: 260px;
@@ -210,6 +220,10 @@
                   font-weight: 600;
                   color: $textColor;
                   background-color: transparent;
+
+                  &:disabled {
+                    opacity: 0.5;
+                  }
 
                   span {
                     position: absolute;

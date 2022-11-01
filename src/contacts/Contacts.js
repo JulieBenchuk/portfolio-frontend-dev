@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Contacts.module.scss"
 import styleContainer from "../common/styles/container/container.module.scss"
 import {Title} from "../common/components/title/Title";
@@ -12,21 +12,26 @@ import axios from 'axios';
 
 
 export const Contacts = () => {
+    const [isLoading, setIsloading] = useState(false)
 
     const formik = useFormik({
         initialValues: {
             name: '', email: '', subject: '', message: ''
         }, onSubmit: (values, {resetForm}) => {
+            setIsloading(true)
 
             axios.post("https://myportfolio-smtp-server.herokuapp.com/", {
-                name: JSON.stringify(values.name),
-                email: JSON.stringify(values.email),
-                subject: JSON.stringify(values.subject),
-                message: JSON.stringify(values.message)
+                name: values.name, email: values.email, subject: values.subject, message: values.message
             })
                 .then(() => {
                     alert("Your message has been sent! Thanks for your interest. I will definitely contact you when I have time.")
                     resetForm()
+                })
+                .catch(() => {
+                    alert("Something went wrong... Your message hasn't been sent! Please try again.")
+                })
+                .finally(() => {
+                    setIsloading(false)
                 })
         },
     });
@@ -66,28 +71,28 @@ export const Contacts = () => {
 
                                         <div className={style.inputsBlock}>
                                             <div className={style.formColumn}>
-                                                <input type="text" placeholder="YOUR NAME"
+                                                <input type="text" placeholder="YOUR NAME" disabled={isLoading}
                                                        className={style.formInput}
                                                        value={formik.values.name} {...formik.getFieldProps("name")}/>
                                             </div>
                                             <div className={style.formColumn}>
-                                                <input type="text" placeholder="YOUR EMAIL"
+                                                <input type="text" placeholder="YOUR EMAIL" disabled={isLoading}
                                                        className={style.formInput}
                                                        value={formik.values.email} {...formik.getFieldProps("email")}/>
                                             </div>
                                             <div className={style.formColumn}>
-                                                <input type="text" placeholder="YOUR SUBJECT"
+                                                <input type="text" placeholder="YOUR SUBJECT" disabled={isLoading}
                                                        className={style.formInput}
                                                        value={formik.values.subject} {...formik.getFieldProps("subject")}/>
                                             </div>
                                         </div>
 
                                         <div className={style.formColumn}>
-                                             <textarea placeholder="YOUR MESSAGE"
+                                             <textarea placeholder="YOUR MESSAGE" disabled={isLoading}
                                                        className={style.formTextarea}
                                                        value={formik.values.message} {...formik.getFieldProps("message")}/>
 
-                                            <button type={"submit"} className={style.button}>
+                                            <button type={"submit"} className={style.button} disabled={isLoading}>
                                                 <span>Send message</span>
                                                 <FontAwesomeIcon icon={faPaperPlane} className={style.button_icon}/>
                                             </button>
