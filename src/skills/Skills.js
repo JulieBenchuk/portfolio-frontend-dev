@@ -41,7 +41,7 @@ export const Skills = () => {
                                         <ul>
                                             <Info title={"First name"} value={"Julie"}/>
                                             <Info title={"Last name"} value={"Benchuk"}/>
-                                            <Info title={"Age"} value={"28 y.o"}/>
+                                            <Info title={"Age"} value={"29 y.o"}/>
                                             <Info title={"Nationality"} value={"Belarusian"}/>
                                             <Info title={"Freelance"} value={"Available"}/>
                                         </ul>
@@ -52,7 +52,7 @@ export const Skills = () => {
                                             <Info title={"Phone"} value={"+375 44 559 06 60"}/>
                                             <Info title={"Email"} value={"juliebenchuk@gmail.com"}/>
                                             <Info title={"Education"}
-                                                  value={"Gomel State University - Banking and Finance. IT-INCUBATOR - Front-end development training"}/>
+                                                  value={"Gomel State University - Banking and Finance. IT-INCUBATOR - Front-end development training."}/>
                                             <Info title={"Languages"} value={"Belarusian (native), English (B1)"}/>
                                         </ul>
                                     </div>
