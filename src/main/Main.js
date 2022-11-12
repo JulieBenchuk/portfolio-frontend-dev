@@ -22,14 +22,9 @@ export const Main = () => {
                         <div>- I'm Julie.</div>
                         <span>Frontend developer</span>
                     </h1>
-                    <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
-                        Thorough understanding of React.js and its core principles
-                        Prior experience with popular React.js workflows (such as Flux or Redux)
-                        Familiarity with more current specifications of EcmaScript
-                        Prior experience with data structure libraries (e.g., Immutable.js)
-                        Knowledge of isomorphic React is a plus
-                        Familiarity with RESTful APIs
-                        Familiarity with HTML / CSS
+                    <p> I'm 29 y.o., proactive, responsible and highly-motivated front-end developer with a strong analytical mind. I have experience working on a project in a team (development using Git, separation of responsibility, time estimation, use of Trello).
+                        I'm improving my skills in React development and expanding them with new technologies. And also I have interest in learning Angular. In free time I solve Codewars tasks and improve my English (currently B1).
+                        Now I'm not in a hurry and considering part-time or internship options.
                     </p>
                     <SuperButton title={"About my skills"} id={"/skills"} icon={faArrowRight}/>
                 </div>
