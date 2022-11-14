@@ -6,6 +6,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {Slide} from "react-awesome-reveal";
 import {useFormik} from "formik";
 import axios from 'axios';
@@ -44,11 +47,14 @@ export const Contacts = () => {
                 <div className={style.container}>
                     <div className={style.row}>
                         <div className={`${style.column} ${style.columnLeft}`}>
+
                             <h3 className={style.title}>Don't be shy!</h3>
+
                             <div className={style.meText}>
                                 Feel free to get in touch with me. I am always open to discussing new projects, creative
                                 ideas or opportunities to be part of your visions.
                             </div>
+
                             <div className={style.mail}>
                                 <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
                                 <div className={style.mailMeColumn}>
@@ -56,6 +62,7 @@ export const Contacts = () => {
                                     juliebenchuk@gmail.com
                                 </div>
                             </div>
+
                             <div className={style.call}>
                                 <FontAwesomeIcon icon={faPhone} className={style.fa_icon}/>
                                 <div className={style.callMeColumn}>
@@ -63,6 +70,19 @@ export const Contacts = () => {
                                     +375 44 559 06 60
                                 </div>
                             </div>
+
+                            <div className={style.socNetwork}>
+                                <a href={"https://www.linkedin.com/in/julie-benchuk-0ab290255/"} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedinIn} className={style.fa_icon}/>
+                                </a>
+                                <a href={"https://www.t.me/julie_benchuk"} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faTelegram} className={style.fa_icon}/>
+                                </a>
+                                <a href={"https://www.instagram.com/julie_benchuk/"} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faInstagram} className={style.fa_icon}/>
+                                </a>
+                            </div>
+
                         </div>
                         <div className={`${style.column} ${style.columnRight}`}>
                             <form onSubmit={formik.handleSubmit}>
