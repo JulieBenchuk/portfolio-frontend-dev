@@ -8,6 +8,7 @@ import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {Slide} from "react-awesome-reveal";
 import {useFormik} from "formik";
@@ -74,6 +75,9 @@ export const Contacts = () => {
                             <div className={style.socNetwork}>
                                 <a href={"https://www.linkedin.com/in/julie-benchuk-0ab290255/"} target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} className={style.fa_icon}/>
+                                </a>
+                                <a href={"https://github.com/JulieBenchuk"} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} className={style.fa_icon}/>
                                 </a>
                                 <a href={"https://www.t.me/julie_benchuk"} target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faTelegram} className={style.fa_icon}/>
