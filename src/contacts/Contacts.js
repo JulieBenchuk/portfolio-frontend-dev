@@ -24,7 +24,7 @@ export const Contacts = () => {
         }, onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
-            axios.post("https://myportfolio-smtp-server.herokuapp.com/", {
+            axios.post("https://gmail-smtp-flame.vercel.app/", {
                 name: values.name, email: values.email, subject: values.subject, message: values.message
             })
                 .then(() => {
