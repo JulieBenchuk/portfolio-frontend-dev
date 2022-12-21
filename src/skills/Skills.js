@@ -6,6 +6,7 @@ import {Title} from "../common/components/title/Title";
 import {faReact} from "@fortawesome/free-brands-svg-icons";
 import {faHtml5} from "@fortawesome/free-brands-svg-icons";
 import {faJs} from "@fortawesome/free-brands-svg-icons";
+import {faDocker} from "@fortawesome/free-brands-svg-icons";
 import {faCss3Alt} from "@fortawesome/free-brands-svg-icons";
 import {faSass} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
@@ -104,6 +105,8 @@ export const Skills = () => {
                                    description={"Express."}/>
                             <Skill title={"Testing"} icon_svg={test_icon}
                                    description={"Experience with unit testing, API testing (Postman)."}/>
+                            <Skill title={"Docker"} icon={faDocker}
+                                   description={"Basic knowledge."}/>
                         </div>
                     </div>
                 </div>
