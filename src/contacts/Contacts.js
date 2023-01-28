@@ -52,8 +52,7 @@ export const Contacts = () => {
                             <h3 className={style.title}>Don't be shy!</h3>
 
                             <div className={style.meText}>
-                                Feel free to get in touch with me. I am always open to discussing new projects, creative
-                                ideas or opportunities to be part of your visions.
+                                Feel free to get in touch with me. I'm still eager to learn something new, so I'll be honored to grow with your company.
                             </div>
 
                             <div className={style.mail}>

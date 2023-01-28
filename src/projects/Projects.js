@@ -33,12 +33,12 @@ export const Projects = () => {
                     <Title title_1st={"My"} title_2nd={"portfolio"} shadow_title={"projects"}/>
                     <div className={style.projects}>
                         <Project name={'To-do list'} style={todoStyle}
-                                 url={'https://juliebenchuk.github.io/todolist/'}
+                                 url={'https://juliebenchuk.github.io/todolist/'} urlCode={"https://github.com/JulieBenchuk/todolist"}
                                  shortDescription={`It’s a list of tasks you need to complete or things that you want to do.  Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.`}/>
-                        <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'}
+                        <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'} urlCode={"https://github.com/DenSalab/work_in_friday"}
                                  shortDescription={`Flashcards are a great tool when you want to memorize a new topic or learn a new language. You write a question and the answer on the card. Then you can test your memory by going through the flashcards.  You can build your own flashcards app.`}/>
                         <Project name={'Social network'} style={socialStyle}
-                                 url={'https://juliebenchuk.github.io/social-network/'} shortDescription={`Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.`}/>
+                                 url={'https://juliebenchuk.github.io/social-network/'} urlCode={"https://github.com/JulieBenchuk/social-network"} shortDescription={`Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.`}/>
                     </div>
                 </div>
             </Slide>

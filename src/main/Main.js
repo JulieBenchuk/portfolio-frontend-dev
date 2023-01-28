@@ -22,9 +22,8 @@ export const Main = () => {
                         <div>- I'm Julie.</div>
                         <span>Frontend developer</span>
                     </h1>
-                    <p> I'm 29 y.o., proactive, responsible and highly-motivated front-end developer with a strong analytical mind. I have experience working on a project in a team (development using Git, separation of responsibility, time estimation, use of Trello).
-                        I'm improving my skills in React development and expanding them with new technologies. And also I have interest in learning Node.js. In free time I solve Codewars tasks and improve my English (currently B1).
-                    </p>
+                    <p> I'm 29 y.o. Proactive and skillful in handling issues, wiith a strong analytical mind. I have
+                        experience working on a project in a team. Now I'm curious to learn Node.js. </p>
                     <SuperButton title={"About my skills"} id={"/skills"} icon={faArrowRight}/>
                 </div>
             </div>
