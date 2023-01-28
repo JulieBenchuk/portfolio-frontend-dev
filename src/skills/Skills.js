@@ -10,7 +10,7 @@ import {faDocker} from "@fortawesome/free-brands-svg-icons";
 import {faCss3Alt} from "@fortawesome/free-brands-svg-icons";
 import {faSass} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import {faAngular} from "@fortawesome/free-brands-svg-icons";
+import {faNode} from "@fortawesome/free-brands-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {redux_icon} from "../assets/img/svg/redux";
 import {ts_icon} from "../assets/img/svg/ts";
@@ -18,6 +18,7 @@ import {express_icon} from "../assets/img/svg/express";
 import {test_icon} from "../assets/img/svg/test"
 import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
+import {vercel_icon} from "../assets/img/svg/vercel"
 import {Slide} from "react-awesome-reveal";
 import {Info} from "./info/Info";
 import {Achievement} from "./achievement/Achievement";
@@ -87,8 +88,8 @@ export const Skills = () => {
                                    description={"Strong Typescript knowledge."}/>
                             <Skill title={"REST API"} icon={faGlobe}
                                    description={"Experience in working with RESTful services. Axios."}/>
-                            <Skill title={"Angular"} icon={faAngular}
-                                   description={"Basic Angular knowledge."}/>
+                            <Skill title={"Node.js"} icon={faNode}
+                                   description={"Basic Node.js knowledge."}/>
                             <Skill title={"HTML"} icon={faHtml5}
                                    description={"HTML5, DOM, Semantic HTML."}/>
                             <Skill title={"CSS"} icon={faCss3Alt}
@@ -101,7 +102,7 @@ export const Skills = () => {
                                    description={"Familiarity with code versioning tool such as Git."}/>
                             <Skill title={"Heroku"} icon_svg={heroku_icon}
                                    description={"Experience in servless (Heroku)."}/>
-                            <Skill title={"Vercel"} icon_svg={heroku_icon}
+                            <Skill title={"Vercel"} icon_svg={vercel_icon}
                                    description={"Experience in servless (Vercel)."}/>
                             <Skill title={"Express"} icon_svg={express_icon}
                                    description={"Express."}/>

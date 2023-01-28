@@ -1,0 +1,1 @@
+export const vercel_icon = (<svg width="50px" height="50px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M256,48,496,464H16Z"/></svg>)
