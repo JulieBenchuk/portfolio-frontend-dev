@@ -101,6 +101,8 @@ export const Skills = () => {
                                    description={"Familiarity with code versioning tool such as Git."}/>
                             <Skill title={"Heroku"} icon_svg={heroku_icon}
                                    description={"Experience in servless (Heroku)."}/>
+                            <Skill title={"Vercel"} icon_svg={heroku_icon}
+                                   description={"Experience in servless (Vercel)."}/>
                             <Skill title={"Express"} icon_svg={express_icon}
                                    description={"Express."}/>
                             <Skill title={"Testing"} icon_svg={test_icon}
