@@ -109,7 +109,7 @@ export const Skills = () => {
                             <Skill title={"Testing"} icon_svg={test_icon}
                                    description={"Experience with unit testing, API testing (Postman)."}/>
                             <Skill title={"Docker"} icon={faDocker}
-                                   description={"Basic knowledge."}/>
+                                   description={"Theoretical knowledge of Docker."}/>
                         </div>
                     </div>
                 </div>

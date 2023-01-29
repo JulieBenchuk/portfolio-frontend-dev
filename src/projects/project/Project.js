@@ -13,6 +13,7 @@ export const Project = (props) => {
             <div className={style.description}>
                 <h5 className={style.title}>{props.name}</h5>
                 <p className={style.description_text}>{props.shortDescription}</p>
+                <p className={style.description_text}>Stack technologies: {props.stack}</p>
                 <span>
                     <a href={props.urlCode} target="_blank" className={style.linkToCode}>SEE CODE</a>
                 </span>
