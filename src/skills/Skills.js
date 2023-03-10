@@ -19,6 +19,7 @@ import {test_icon} from "../assets/img/svg/test"
 import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
 import {vercel_icon} from "../assets/img/svg/vercel"
+import {next_icon} from "../assets/img/svg/next"
 import {Slide} from "react-awesome-reveal";
 import {Info} from "./info/Info";
 import {Achievement} from "./achievement/Achievement";
@@ -88,6 +89,8 @@ export const Skills = () => {
                                    description={"Experience in Redux and Redux Thunk."}/>
                             <Skill title={"TypeScript"} icon_svg={ts_icon}
                                    description={"Strong Typescript knowledge."}/>
+                            <Skill title={"Next.js"} icon_svg={next_icon}
+                                   description={"Experience in creating applications on Next.js."}/>
                             <Skill title={"REST API"} icon={faGlobe}
                                    description={"Experience in working with RESTful services. Axios."}/>
                             <Skill title={"Node.js"} icon={faNode}
