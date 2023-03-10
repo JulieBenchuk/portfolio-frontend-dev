@@ -32,7 +32,7 @@ export const Projects = () => {
                 <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                     <Title title_1st={"My"} title_2nd={"portfolio"} shadow_title={"projects"}/>
                     <div className={style.projects}>
-                        <Project name={'To-do list'} style={todoStyle}
+                        <Project name={'Task manager'} style={todoStyle}
                                  url={'https://juliebenchuk.github.io/todolist/'} urlCode={"https://github.com/JulieBenchuk/todolist"}
                                  shortDescription={`It’s a list of tasks you need to complete or things that you want to do.`}
                         stack={"React (Functional Components), Redux, Redux Toolkit, TypeScript, Axios, Formik, Thunk-Redux, MUI, React-Router-dom (V6)."}/>
