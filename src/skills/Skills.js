@@ -46,16 +46,18 @@ export const Skills = () => {
                                             <Info title={"Age"} value={"29 y.o"}/>
                                             <Info title={"Nationality"} value={"Belarusian"}/>
                                             <Info title={"Freelance"} value={"Available"}/>
+                                            <Info title={"Ready for relocation"} value={"Yes"}/>
                                         </ul>
                                     </div>
                                     <div className={style.personalInfoColumn}>
                                         <ul>
-                                            <Info title={"Address"} value={"Minsk"}/>
+                                            <Info title={"Address"} value={"Minsk, Belarus"}/>
                                             <Info title={"Phone"} value={"+375 44 559 06 60"}/>
                                             <Info title={"Email"} value={"juliebenchuk@gmail.com"}/>
                                             <Info title={"Education"}
-                                                  value={"Gomel State University - Banking and Finance. IT-INCUBATOR - Front-end development training."}/>
-                                            <Info title={"Languages"} value={"Belarusian (native), English (B1)"}/>
+                                                  value={"Gomel State University - Banking and Finance."}/>
+                                            <Info value={"IT-INCUBATOR - Front-end development training."}/>
+                                            <Info title={"Languages"} value={"Belarusian & Russian (native), English (B1)"}/>
                                         </ul>
                                     </div>
                                 </div>
@@ -63,7 +65,7 @@ export const Skills = () => {
                         </div>
                         <div className={style.achievements}>
                             <div className={style.achievementsInner}>
-                                <Achievement amount={"3"} subjectStart={"completed"} subjectEnd={"projects"}/>
+                                <Achievement amount={"5"} subjectStart={"completed"} subjectEnd={"projects"}/>
                                 <Achievement amount={"2K"} subjectStart={"hours of"} subjectEnd={"coding"}/>
                                 <Achievement amount={"1"} subjectStart={"year of"} subjectEnd={"experience"}/>
                                 <Achievement amount={"200"} subjectStart={"codewars"} subjectEnd={"honor"}/>

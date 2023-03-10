@@ -4,7 +4,7 @@ import style from "../Skills.module.scss";
 export const Info = (props) => {
     return (
         <li>
-            <span className={style.titleInfo}> {props.title} : </span>
+            {props.title && <span className={style.titleInfo}> {props.title}: </span>}
             <span className={style.valueInfo}>{props.value} </span>
         </li>
     );
