@@ -52,14 +52,15 @@ export const Contacts = () => {
                             <h3 className={style.title}>Don't be shy!</h3>
 
                             <div className={style.meText}>
-                                Feel free to get in touch with me. I'm still eager to learn something new, so I'll be honored to grow with your company.
+                                Feel free to get in touch with me. I'm still eager to learn something new, so I'll be
+                                honored to grow with your company.
                             </div>
 
                             <div className={style.mail}>
                                 <FontAwesomeIcon icon={faEnvelope} className={style.fa_icon}/>
                                 <div className={style.mailMeColumn}>
                                     <span className={style.mailMeTitle}>Mail me</span>
-                                    juliebenchuk@gmail.com
+                                    <a href={'mailto:juliebenchuk@gmail.com'}>juliebenchuk@gmail.com</a>
                                 </div>
                             </div>
 
@@ -67,12 +68,13 @@ export const Contacts = () => {
                                 <FontAwesomeIcon icon={faPhone} className={style.fa_icon}/>
                                 <div className={style.callMeColumn}>
                                     <span className={style.callMeTitle}>Call me</span>
-                                    +375 44 559 06 60
+                                    <a href={'tel:+375445590660'}>+375 44 559 06 60</a>
                                 </div>
                             </div>
 
                             <div className={style.socNetwork}>
-                                <a href={"https://www.linkedin.com/in/julie-benchuk-0ab290255/"} target="_blank" rel="noreferrer">
+                                <a href={"https://www.linkedin.com/in/julie-benchuk-0ab290255/"} target="_blank"
+                                   rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} className={style.fa_icon}/>
                                 </a>
                                 <a href={"https://github.com/JulieBenchuk"} target="_blank" rel="noreferrer">
