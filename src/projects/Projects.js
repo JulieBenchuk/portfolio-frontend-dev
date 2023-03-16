@@ -39,7 +39,7 @@ export const Projects = () => {
                     <Title title_1st={"My"} title_2nd={"portfolio"} shadow_title={"projects"}/>
                     <div className={style.projects}>
                         <Project name={'Web-studio'} style={webStudioStyle}
-                                 url={'https://juliebenchuk.github.io/web-studio/'} urlCode={"https://github.com/JulieBenchuk/web-studio"}
+                                 url={'https://web-studio-sigma.vercel.app/'} urlCode={"https://github.com/JulieBenchuk/web-studio"}
                                  shortDescription={`Web-studio platform with feedback forms.`}
                                  stack={"React, TypeScript, Next.js, Formik, Yup, React-Scroll, Swiper, React-Paginate."}/>
                         <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'} urlCode={"https://github.com/DenSalab/work_in_friday"}
