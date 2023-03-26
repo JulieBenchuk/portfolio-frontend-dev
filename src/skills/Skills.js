@@ -69,7 +69,7 @@ export const Skills = () => {
                                 <Achievement amount={"5"} subjectStart={"completed"} subjectEnd={"projects"}/>
                                 <Achievement amount={"2K"} subjectStart={"hours of"} subjectEnd={"coding"}/>
                                 <Achievement amount={"1"} subjectStart={"year of"} subjectEnd={"experience"}/>
-                                <Achievement amount={"200"} subjectStart={"codewars"} subjectEnd={"honor"}/>
+                                <Achievement amount={"300"} subjectStart={"codewars"} subjectEnd={"honor"}/>
                             </div>
                         </div>
                     </div>
