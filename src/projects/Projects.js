@@ -16,11 +16,6 @@ export const Projects = () => {
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
-    const todoStyle = {
-        backgroundImage: `url(${todo})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center"
-    }
     const cardsStyle = {
         backgroundImage: `url(${cards})`,
         backgroundSize: "cover",
@@ -45,10 +40,6 @@ export const Projects = () => {
                         <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'} urlCode={"https://github.com/DenSalab/work_in_friday"}
                                  shortDescription={`Flashcards are a great tool when you want to memorize a new topic or learn a new language.`}
                         stack={"React (Functional Components), Redux, TypeScript, JS, Axios, Formik, React-Router-dom (V6), Thunk-Redux, Font Awesome icons."}/>
-                        <Project name={'Task manager'} style={todoStyle}
-                                 url={'https://juliebenchuk.github.io/todolist/'} urlCode={"https://github.com/JulieBenchuk/todolist"}
-                                 shortDescription={`It’s a list of tasks you need to complete or things that you want to do.`}
-                        stack={"React (Functional Components), Redux, Redux Toolkit, TypeScript, Axios, Formik, Thunk-Redux, MUI, React-Router-dom (V6)."}/>
                         <Project name={'Social network'} style={socialStyle}
                                  url={'https://juliebenchuk.github.io/social-network/'} urlCode={"https://github.com/JulieBenchuk/social-network"} shortDescription={`Use this online platform to maintain contact, interact and collaborate with like-minded individuals.`}
                         stack={"React (Functional & Class-Components), Redux, TypeScript, JS, Axios, Redux Form, Thunk-Redux, ReactPlayer, React-Router-dom (V5), Font Awesome icons."}/>
