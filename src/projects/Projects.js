@@ -4,8 +4,8 @@ import style from "./Projects.module.scss"
 import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
 import social from "./../assets/img/social_network_img.png"
-import todo from "./../assets/img/todolist_img.jpeg"
 import cards from "./../assets/img/cards_img.jpeg"
+import onlineStore from "./../assets/img/onlineStore.png"
 import webStudio from "./../assets/img/web_studio_img.png"
 import {Slide} from "react-awesome-reveal";
 
@@ -26,6 +26,11 @@ export const Projects = () => {
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
+    const storeStyle = {
+        backgroundImage: `url(${onlineStore})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+    }
 
     return (
         <div className={style.projectsBlock} id={"projects"}>
@@ -37,6 +42,9 @@ export const Projects = () => {
                                  url={'https://web-studio-sigma.vercel.app/'} urlCode={"https://github.com/JulieBenchuk/web-studio"}
                                  shortDescription={`Web-studio platform with feedback forms.`}
                                  stack={"React, TypeScript, Next.js, Formik, Yup, React-Scroll, Swiper, React-Paginate."}/>
+                        <Project name={'Online store'} style={storeStyle} url={'https://www.youtube.com/channel/UC_hPYclmFCIENpMUHpPY8FQ'} urlCode={"https://github.com/DJWOMS/GSpot"}
+                                 shortDescription={`Online video game store like Steam.`}
+                        stack={"React, TypeScript, Next.js, HTML5, Tailwind CSS, CSS modules."}/>
                         <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'} urlCode={"https://github.com/DenSalab/work_in_friday"}
                                  shortDescription={`Flashcards are a great tool when you want to memorize a new topic or learn a new language.`}
                         stack={"React (Functional Components), Redux, TypeScript, JS, Axios, Formik, React-Router-dom (V6), Thunk-Redux, Font Awesome icons."}/>
