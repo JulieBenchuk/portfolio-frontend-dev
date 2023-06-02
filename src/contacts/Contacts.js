@@ -73,7 +73,7 @@ export const Contacts = () => {
                             </div>
 
                             <div className={style.socNetwork}>
-                                <a href={"www.linkedin.com/in/juliebenchuk"} target="_blank"
+                                <a href={"https://www.linkedin.com/in/juliebenchuk/"} target="_blank"
                                    rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} className={style.fa_icon}/>
                                 </a>
