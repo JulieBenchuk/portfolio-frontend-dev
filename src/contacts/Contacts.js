@@ -80,7 +80,7 @@ export const Contacts = () => {
                                 <a href={"https://github.com/JulieBenchuk"} target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className={style.fa_icon}/>
                                 </a>
-                                <a href={"https://www.t.me/julie_benchuk"} target="_blank" rel="noreferrer">
+                                <a href={"https://www.t.me/julie_bnchk"} target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faTelegram} className={style.fa_icon}/>
                                 </a>
                                 <a href={"https://www.instagram.com/julie_benchuk/"} target="_blank" rel="noreferrer">
