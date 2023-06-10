@@ -15,6 +15,8 @@ import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {redux_icon} from "../assets/img/svg/redux";
 import {ts_icon} from "../assets/img/svg/ts";
 import {express_icon} from "../assets/img/svg/express";
+import {flutter_icon} from "../assets/img/svg/flutter";
+import {dart_icon} from "../assets/img/svg/dart";
 import {test_icon} from "../assets/img/svg/test"
 import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
@@ -66,9 +68,9 @@ export const Skills = () => {
                         </div>
                         <div className={style.achievements}>
                             <div className={style.achievementsInner}>
-                                <Achievement amount={"5"} subjectStart={"completed"} subjectEnd={"projects"}/>
+                                <Achievement amount={"10"} subjectStart={"completed"} subjectEnd={"projects"}/>
                                 <Achievement amount={"2K"} subjectStart={"hours of"} subjectEnd={"coding"}/>
-                                <Achievement amount={"1"} subjectStart={"year of"} subjectEnd={"experience"}/>
+                                <Achievement amount={"1.5"} subjectStart={"year of"} subjectEnd={"experience"}/>
                                 <Achievement amount={"300"} subjectStart={"codewars"} subjectEnd={"honor"}/>
                             </div>
                         </div>
@@ -91,6 +93,10 @@ export const Skills = () => {
                                    description={"Strong Typescript knowledge."}/>
                             <Skill title={"Next.js"} icon_svg={next_icon}
                                    description={"Experience in creating applications on Next.js."}/>
+                            <Skill title={"Dart"} icon_svg={dart_icon}
+                                   description={"Knowledge of Dart programming language."}/>
+                            <Skill title={"Flutter"} icon_svg={flutter_icon}
+                                   description={"Working experience in mobile application development."}/>
                             <Skill title={"REST API"} icon={faGlobe}
                                    description={"Experience in working with RESTful services. Axios."}/>
                             <Skill title={"Node.js"} icon={faNode}

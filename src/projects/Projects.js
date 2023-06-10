@@ -42,7 +42,7 @@ export const Projects = () => {
                                  url={'https://web-studio-sigma.vercel.app/'} urlCode={"https://github.com/JulieBenchuk/web-studio"}
                                  shortDescription={`Web-studio platform with feedback forms.`}
                                  stack={"React, TypeScript, Next.js, Formik, Yup, React-Scroll, Swiper, React-Paginate."}/>
-                        <Project name={'Online store'} style={storeStyle} url={'https://gspotfrontend-57cdjjfxo-zebartcoc.vercel.app/'} urlCode={"https://github.com/DJWOMS/GSpot"}
+                        <Project name={'Online store'} style={storeStyle} url={'https://gspot.vercel.app'} urlCode={"https://github.com/DJWOMS/GSpot"}
                                  shortDescription={`Online video game store like Steam.`}
                         stack={"React, React Hook Form, TypeScript, Next.js, HTML5, Tailwind CSS, CSS modules, Faker.js, Datepicker, Swiper, React-Paginate, etc."}/>
                         <Project name={'Flashcards'} style={cardsStyle} url={'https://densalab.github.io/work_in_friday/'} urlCode={"https://github.com/DenSalab/work_in_friday"}
