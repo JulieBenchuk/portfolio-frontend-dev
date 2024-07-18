@@ -22,7 +22,7 @@ export const Main = () => {
                         <div>- I'm Julie.</div>
                         <span>Frontend developer</span>
                     </h1>
-                    <p> I'm 29 y.o. Proactive and skillful in handling issues, wiith a strong analytical mind. I have
+                    <p> I'm 30 y.o. Proactive and skillful in handling issues, with a strong analytical mind. I have
                         experience working on a project in a team. Now I'm curious to learn Node.js. </p>
                     <SuperButton title={"About my skills"} id={"/skills"} icon={faArrowRight}/>
                 </div>

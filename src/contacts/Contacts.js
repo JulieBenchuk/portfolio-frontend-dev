@@ -9,6 +9,7 @@ import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faGitlab} from "@fortawesome/free-brands-svg-icons";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {Slide} from "react-awesome-reveal";
 import {useFormik} from "formik";
@@ -76,6 +77,9 @@ export const Contacts = () => {
                                 <a href={"https://www.linkedin.com/in/juliebenchuk/"} target="_blank"
                                    rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} className={style.fa_icon}/>
+                                </a>
+                                <a href={"https://gitlab.com/juliebenchuk"} target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faGitlab} className={style.fa_icon}/>
                                 </a>
                                 <a href={"https://github.com/JulieBenchuk"} target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className={style.fa_icon}/>

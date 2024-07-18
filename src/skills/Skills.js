@@ -22,6 +22,7 @@ import {mui_icon} from "../assets/img/svg/mui"
 import {heroku_icon} from "../assets/img/svg/heroku"
 import {vercel_icon} from "../assets/img/svg/vercel"
 import {next_icon} from "../assets/img/svg/next"
+import {tailwind_icon} from "../assets/img/svg/tailwind";
 import {Slide} from "react-awesome-reveal";
 import {Info} from "./info/Info";
 import {Achievement} from "./achievement/Achievement";
@@ -46,7 +47,7 @@ export const Skills = () => {
                                         <ul>
                                             <Info title={"First name"} value={"Julie"}/>
                                             <Info title={"Last name"} value={"Benchuk"}/>
-                                            <Info title={"Age"} value={"29 y.o"}/>
+                                            <Info title={"Age"} value={"30 y.o"}/>
                                             <Info title={"Nationality"} value={"Belarusian"}/>
                                             <Info title={"Freelance"} value={"Available"}/>
                                             <Info title={"Ready for relocation"} value={"Yes"}/>
@@ -60,7 +61,7 @@ export const Skills = () => {
                                             <Info title={"Education"}
                                                   value={"Gomel State University - Banking and Finance."}/>
                                             <Info value={"IT-INCUBATOR - Front-end development training."}/>
-                                            <Info title={"Languages"} value={"Belarusian & Russian (native), English (B1)"}/>
+                                            <Info title={"Languages"} value={"Belarusian & Russian (native), English (B2)"}/>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,10 +69,10 @@ export const Skills = () => {
                         </div>
                         <div className={style.achievements}>
                             <div className={style.achievementsInner}>
-                                <Achievement amount={"10"} subjectStart={"completed"} subjectEnd={"projects"}/>
-                                <Achievement amount={"2K"} subjectStart={"hours of"} subjectEnd={"coding"}/>
-                                <Achievement amount={"1.5"} subjectStart={"year of"} subjectEnd={"experience"}/>
-                                <Achievement amount={"300"} subjectStart={"codewars"} subjectEnd={"honor"}/>
+                                <Achievement amount={"6"} subjectStart={"completed"} subjectEnd={"projects"}/>
+                                <Achievement amount={"B2"} subjectStart={"English"} subjectEnd={"level"}/>
+                                <Achievement amount={"2"} subjectStart={"years of"} subjectEnd={"experience"}/>
+                                <Achievement amount={"320"} subjectStart={"codewars"} subjectEnd={"honor"}/>
                             </div>
                         </div>
                     </div>
@@ -93,10 +94,6 @@ export const Skills = () => {
                                    description={"Strong Typescript knowledge."}/>
                             <Skill title={"Next.js"} icon_svg={next_icon}
                                    description={"Experience in creating applications on Next.js."}/>
-                            <Skill title={"Dart"} icon_svg={dart_icon}
-                                   description={"Knowledge of Dart programming language."}/>
-                            <Skill title={"Flutter"} icon_svg={flutter_icon}
-                                   description={"Working experience in mobile application development."}/>
                             <Skill title={"REST API"} icon={faGlobe}
                                    description={"Experience in working with RESTful services. Axios."}/>
                             <Skill title={"Node.js"} icon={faNode}
@@ -107,6 +104,8 @@ export const Skills = () => {
                                    description={"CSS3. Responsive design. CSS-modules."}/>
                             <Skill title={"Sass/SCSS"} icon={faSass}
                                    description={"Experience in CSS preprocessor like SASS, SCSS."}/>
+                            <Skill title={"Tailwind"} icon_svg={tailwind_icon}
+                                   description={"Сompleted projects using this CSS framework."}/>
                             <Skill title={"UI"} icon_svg={mui_icon}
                                    description={"Knowledge of UI libraries (Material-UI, Storybook)."}/>
                             <Skill title={"Git"} icon={faGithub}
@@ -121,6 +120,10 @@ export const Skills = () => {
                                    description={"Experience with unit testing, API testing (Postman)."}/>
                             <Skill title={"Docker"} icon={faDocker}
                                    description={"Theoretical knowledge of Docker."}/>
+                            <Skill title={"Dart"} icon_svg={dart_icon}
+                                   description={"Knowledge of Dart programming language."}/>
+                            <Skill title={"Flutter"} icon_svg={flutter_icon}
+                                   description={"Working experience in mobile application development."}/>
                         </div>
                     </div>
                 </div>
