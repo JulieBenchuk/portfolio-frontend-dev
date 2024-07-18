@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-frontend-dev/static/css/main.b4150797.css",
-    "main.js": "/portfolio-frontend-dev/static/js/main.2fb5382b.js",
+    "main.css": "/portfolio-frontend-dev/static/css/main.6abe39bb.css",
+    "main.js": "/portfolio-frontend-dev/static/js/main.b8732d62.js",
     "static/js/787.29b17166.chunk.js": "/portfolio-frontend-dev/static/js/787.29b17166.chunk.js",
     "static/media/onlineStore.png": "/portfolio-frontend-dev/static/media/onlineStore.80c16e1f37b1503dcc8a.png",
     "static/media/web_studio_img.png": "/portfolio-frontend-dev/static/media/web_studio_img.0ab97a79ab90ae780bb5.png",
@@ -9,12 +9,12 @@
     "static/media/social_network_img.png": "/portfolio-frontend-dev/static/media/social_network_img.4a1aa4e44b9c2e1dc929.png",
     "static/media/cards_img.jpeg": "/portfolio-frontend-dev/static/media/cards_img.39c1cb6dde921f49598a.jpeg",
     "index.html": "/portfolio-frontend-dev/index.html",
-    "main.b4150797.css.map": "/portfolio-frontend-dev/static/css/main.b4150797.css.map",
-    "main.2fb5382b.js.map": "/portfolio-frontend-dev/static/js/main.2fb5382b.js.map",
+    "main.6abe39bb.css.map": "/portfolio-frontend-dev/static/css/main.6abe39bb.css.map",
+    "main.b8732d62.js.map": "/portfolio-frontend-dev/static/js/main.b8732d62.js.map",
     "787.29b17166.chunk.js.map": "/portfolio-frontend-dev/static/js/787.29b17166.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4150797.css",
-    "static/js/main.2fb5382b.js"
+    "static/css/main.6abe39bb.css",
+    "static/js/main.b8732d62.js"
   ]
 }
